@@ -1,0 +1,7 @@
+{
+  "name": "arcticket-json-server-api",
+  "version": "1.0.0",
+  "description": "JSON host for Vercel deployment",
+  "scripts": {},
+  "license": "MIT"
+}
