@@ -2019,7 +2019,7 @@
                   "attrtype": "nvarchar",
                   "api_name": "phone",
                   "visible": true,
-                  "displayapiname": "assignedto",
+                  "displayapiname": "Assigned User",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
