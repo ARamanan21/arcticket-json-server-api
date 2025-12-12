@@ -9766,7 +9766,25 @@
                   "istitle": false,
                   "isdate": false,
                   "islookup": false
+                },
+                {
+                  "id": "7b0bb530-0d49-4c6a-b960-fc02d233c2b4",
+                  "name": "Toggle",
+                  "lablekey": "lbl-users-country",
+                  "columnwidth": 150,
+                  "seqno": 7,
+                  "masterid": "1008",
+                  "controltype": "textbox",
+                  "attrtype": "nvarchar",
+                  "api_name": "toggle",
+                  "visible": true,
+                  "displayapiname": "toggle",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
                 }
+
                 
 
               
@@ -9993,6 +10011,15 @@
             "columnwidth": 150
           },
           {
+            "id": "7b0bb530-0d49-4c6a-b960-fc02d233c2b4",
+            "seqno": 60,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "mobile",
+            "columnwidth": 150
+          },
+          {
             "id": "55555555-5555-5555-5555-555555555511",
             "seqno": 50,
             "masterid": "0",
@@ -10019,7 +10046,7 @@
           "createdon": "2025-06-20",
           "lastmodifiedby": "John Abraham",
           "lastmodifiedon": "2025-10-14",
-          "isActive": false
+          "toggle": false
           
         },
         {
@@ -10029,7 +10056,7 @@
           "createdon": "2025-06-20",
           "lastmodifiedby": "Michael Wang",
           "lastmodifiedon": "2025-10-14",
-          "isActive": true
+          "toggle": true
           
         }
 
