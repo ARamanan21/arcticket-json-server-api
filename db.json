@@ -9777,35 +9777,19 @@
                   "isdate": false,
                   "islookup": false
                 },
-                 {
-                  "id": "08",
-                  "name": "Status",
-                  "lablekey": "lbl-user-displayname",
-                  "columnwidth": 150,
-                  "seqno": 2,
-                  "masterid": "",
-                  "controltype": null,
-                  "attrtype": "datetime",
-                  "api_name": "status",
-                  "visible": true,
-                  "displayapiname": "status",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
+                
                  {
                   "id": "09",
-                  "name": "Toggle",
+                  "name": "Is Active",
                   "lablekey": "lbl-users-country",
                   "columnwidth": 150,
                   "seqno": 7,
                   "masterid": "1008",
                   "controltype": "textbox",
                   "attrtype": "nvarchar",
-                  "api_name": "toggle",
+                  "api_name": "status",
                   "visible": true,
-                  "displayapiname": "toggle",
+                  "displayapiname": "status",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -13753,55 +13737,6 @@
           ],
           "isactive": true,
           "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        },
-        {
-          "id": 1071,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101107,
-              "valueKey": "Low"
-            },
-            {
-              "id": 101108,
-              "valueKey": "Medium"
-            },
-            {
-              "id": 101109,
-              "valueKey": "High"
-            },{
-              "id": 101100,
-              "valueKey": "Critical"
-            }
-           
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        },
-        {
-          "id": 1072,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101111,
-              "valueKey": "Individual"
-            },
-            {
-              "id": 101112,
-              "valueKey": "Departmental"
-            },
-            {
-              "id": 101113,
-              "valueKey": "System-wide"
-            }
-           
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
         }
       ],
       "correlationId": null
@@ -14064,16 +13999,16 @@
                 },
                  {
                   "id": "21956e74-d8cd-13ce-80f4-145e52f84509",
-                  "name": "Toggle",
+                  "name": "Status",
                   "lablekey": "lbl-users-country",
                   "columnwidth": 150,
                   "seqno": 22,
                   "masterid": "",
                   "controltype": "checkbox",
                   "attrtype": "nvarchar",
-                  "api_name": "toggle",
+                  "api_name": "status",
                   "visible": true,
-                  "displayapiname": "toggle",
+                  "displayapiname": "status",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -14105,7 +14040,7 @@
                   "isquickfilter": true,
                   "api_name": "is_active",
                   "islookup": false,
-                  "masterid": "1071",
+                  "masterid": "1004",
                   "apioutputskey": null,
                   "isvisible": false,
                   "apioutputvalue": null
@@ -14119,7 +14054,7 @@
                   "isquickfilter": true,
                   "api_name": "is_active",
                   "islookup": false,
-                  "masterid": "1072",
+                  "masterid": "1002",
                   "apioutputskey": null,
                   "isvisible": false,
                   "apioutputvalue": null
@@ -14133,7 +14068,7 @@
                   "isquickfilter": true,
                   "api_name": "is_active",
                   "islookup": false,
-                  "masterid": "1072",
+                  "masterid": "1004",
                   "apioutputskey": null,
                   "isvisible": false,
                   "apioutputvalue": null
@@ -14582,7 +14517,26 @@
         "isdefault": null,
         "last_accessed_time": "2025-07-18T11:12:14",
         "filters": [],
-        "groupby": [],
+        "groupby": [
+          {
+            "id": "Inv10",
+            "type": "vertical",
+            "direction": "asc",
+            "defaultvalue": "All",
+            "api_name": "IssueCategory",
+            "masterid": "",
+            "seq": null
+          },
+          {
+            "id": "Inv09",
+            "type": "vertical",
+            "direction": "asc",
+            "defaultvalue": "All",
+            "api_name": "Category",
+            "masterid": "",
+            "seq": null
+          }
+        ],
         "columns": [
           {
             "id": "Inv01",
@@ -14945,7 +14899,7 @@
       "message": "List of Masters for Tenant",
       "data": [
         {
-          "id": 1010,
+          "id": 1020,
           "valuekey": "userstatus",
           "labels": {},
           "jsonmetadata": null,
@@ -14964,7 +14918,7 @@
             },
             {
               "id": 101104,
-              "valueKey": "CMS/Ops"
+              "valueKey": "Infrastructure"
             },
             {
               "id": 101105,
@@ -14992,7 +14946,7 @@
             },
             {
               "id": 101111,
-              "valueKey": "IT"
+              "valueKey": "IT Support"
             },
             {
               "id": 101112,
@@ -15019,32 +14973,6 @@
           "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
         },
         {
-          "id": 1012,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101101,
-              "valueKey": "Critical"
-            },
-            {
-              "id": 101102,
-              "valueKey": "High"
-            },
-            {
-              "id": 101103,
-              "valueKey": "Low"
-            },
-            {
-              "id": 101104,
-              "valueKey": "Medium"
-            }
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        },
-        {
           "id": 1011,
           "valuekey": "userstatus",
           "labels": {},
@@ -15057,6 +14985,32 @@
             {
               "id": 101102,
               "valueKey": "Inactive"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1013,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Incident"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Service Request"
+            },
+             {
+              "id": 101103,
+              "valueKey": "Change"
+            },
+             {
+              "id": 101104,
+              "valueKey": "Problem"
             }
           ],
           "isactive": true,
@@ -15207,9 +15161,25 @@
                   "masterid": "",
                   "controltype": null,
                   "attrtype": "nvarchar",
-                  "api_name": "description",
+                  "api_name": "Description",
                   "visible": true,
-                  "displayapiname": "description",
+                  "displayapiname": "Description",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },   {
+                  "id": "Inv08",
+                  "name": "Status",
+                  "lablekey": "lbl-users-country",
+                  "columnwidth": 150,
+                  "seqno": 22,
+                  "masterid": "",
+                  "controltype": "checkbox",
+                  "attrtype": "nvarchar",
+                  "api_name": "status",
+                  "visible": true,
+                  "displayapiname": "status",
                   "inlineeditable": null,
                   "istitle": false,
                   "isdate": false,
@@ -15240,7 +15210,7 @@
                   "isquickfilter": true,
                   "api_name": "is_active",
                   "islookup": false,
-                  "masterid": "1010",
+                  "masterid": "1020",
                   "apioutputskey": null,
                   "isvisible": false,
                   "apioutputvalue": null
@@ -15347,6 +15317,15 @@
             "attrtype": "nvarchar",
             "api_name": "description",
             "columnwidth": 150
+          },
+          {
+            "id": "Inv08",
+            "seqno": 70,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "toggle",
+            "columnwidth": 150
           }
         ]
       },
@@ -15366,7 +15345,8 @@
           "Createdby": "Michael Anthony",
           "Createdon": "22/05/2025",
           "Updatedon": "22/05/2025",
-          "Description": "Unplanned interruptions or degradtion of service."
+          "Description": "Unplanned interruptions or degradtion of service.",
+          "toggle":false
         },
         {
           "id": 2,
@@ -15376,7 +15356,8 @@
           "Createdby": "Michael Anthony",
           "Createdon": "21/05/2025",
           "Updatedon": "21/05/2025",
-          "Description": "Request from users from access,setup, or standalone."
+          "Description": "Request from users from access,setup, or standalone.",
+           "toggle":true
         },
         {
           "id": 3,
@@ -15386,7 +15367,8 @@
           "Createdby": "Michael Anthony",
           "Createdon": "19/05/2025",
           "Updatedon": "19/05/2025",
-          "Description": "Underlying causes of one or more incidents."
+          "Description": "Underlying causes of one or more incidents.",
+           "toggle":false
         },
         {
           "id": 4,
@@ -15396,7 +15378,8 @@
           "Createdby": "Michael Anthony",
           "Createdon": "17/05/2025",
           "Updatedon": "17/05/2025",
-          "Description": "Planned changes to improve or modeify the system."
+          "Description": "Planned changes to improve or modeify the system.",
+           "toggle":false
         },
         {
           "id": 5,
@@ -15406,7 +15389,8 @@
           "Createdby": "Michael Anthony",
           "Createdon": "15/05/2025",
           "Updatedon": "15/05/2025",
-          "Description": "Unplanned discruption or degradation of network issues."
+          "Description": "Unplanned discruption or degradation of network issues.",
+           "toggle":true
         },
         {
           "id": 6,
@@ -15416,7 +15400,8 @@
           "Createdby": "Michael Anthony",
           "Createdon": "15/05/2025",
           "Updatedon": "15/05/2025",
-          "Description": "Unplanned discruption or degradation of network issues."
+          "Description": "Unplanned discruption or degradation of network issues.",
+           "toggle":false
         },
         {
           "id": 7,
@@ -15426,7 +15411,8 @@
           "Createdby": "Michael Anthony",
           "Createdon": "14/05/2025",
           "Updatedon": "14/05/2025",
-          "Description": "Planned infrastructure modifications."
+          "Description": "Planned infrastructure modifications.",
+           "toggle":false
         },
         {
           "id": 8,
@@ -15436,7 +15422,8 @@
           "Createdby": "Michael Anthony",
           "Createdon": "13/05/2025",
           "Updatedon": "13/05/2025",
-          "Description": "Requests for devices,assets,or equipment."
+          "Description": "Requests for devices,assets,or equipment.",
+           "toggle":false
         },
         {
           "id": 9,
@@ -15446,7 +15433,8 @@
           "Createdby": "Michael Anthony",
           "Createdon": "08/05/2025",
           "Updatedon": "08/05/2025",
-          "Description": "Investigation of recurring or underlying system issues."
+          "Description": "Investigation of recurring or underlying system issues.",
+           "toggle":false
         }
       ],
       "totalRecords": 15,
