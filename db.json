@@ -1066,7 +1066,7 @@
                     "attrtype": "nvarchar",
                     "api_name": "time_zone",
                     "visible": true,
-                    "displayapiname": "ticketname",
+                    "displayapiname": "ticketid",
                     "inlineeditable": null,
                     "istitle": true,
                     "isdate": false,
@@ -1098,9 +1098,9 @@
                     "masterid": "",
                     "controltype": null,
                     "attrtype": "nvarchar",
-                    "api_name": "language",
+                    "api_name": "createdby",
                     "visible": true,
-                    "displayapiname": "language",
+                    "displayapiname": "createdby",
                     "inlineeditable": null,
                     "istitle": false,
                     "isdate": false,
@@ -1183,9 +1183,9 @@
                     "masterid": "",
                     "controltype": "textbox",
                     "attrtype": "nvarchar",
-                    "api_name": "mobile",
+                    "api_name": "createdon",
                     "visible": true,
-                    "displayapiname": "mobile",
+                    "displayapiname": "createdon",
                     "inlineeditable": null,
                     "istitle": false,
                     "isdate": false,
@@ -1200,9 +1200,9 @@
                     "masterid": "",
                     "controltype": null,
                     "attrtype": "nvarchar",
-                    "api_name": "Assigned User",
+                    "api_name": "assignedto",
                     "visible": true,
-                    "displayapiname": "Assigned User",
+                    "displayapiname": "assignedto",
                     "inlineeditable": null,
                     "istitle": false,
                     "isdate": false,
@@ -1251,9 +1251,9 @@
                     "masterid": "",
                     "controltype": null,
                     "attrtype": "nvarchar",
-                    "api_name": "phone",
+                    "api_name": "Department",
                     "visible": true,
-                    "displayapiname": "primary_number",
+                    "displayapiname": "Department",
                     "inlineeditable": null,
                     "istitle": false,
                     "isdate": false,
@@ -1268,9 +1268,9 @@
                     "masterid": "1010",
                     "controltype": null,
                     "attrtype": "nvarchar",
-                    "api_name": "ticket_title",
+                    "api_name": "tickettitle",
                     "visible": true,
-                    "displayapiname": "ticket_title",
+                    "displayapiname": "tickettitle",
                     "inlineeditable": null,
                     "istitle": false,
                     "isdate": false,
@@ -1361,7 +1361,7 @@
               "masterid": "0",
               "controltype": null,
               "attrtype": "nvarchar",
-              "api_name": "ticket_title",
+              "api_name": "tickettitle",
               "columnwidth": 150
             },
             {
@@ -1478,7 +1478,7 @@
               "masterid": "0",
               "controltype": null,
               "attrtype": "nvarchar",
-              "api_name": "primary_number",
+              "api_name": "Department",
               "columnwidth": 150
             },
             {
@@ -1487,7 +1487,7 @@
               "masterid": "0",
               "controltype": null,
               "attrtype": "nvarchar",
-              "api_name": "language",
+              "api_name": "createdby",
               "columnwidth": 150
             },
             {
@@ -1496,7 +1496,7 @@
               "masterid": "0",
               "controltype": null,
               "attrtype": "nvarchar",
-              "api_name": "mobile",
+              "api_name": "createdon",
               "columnwidth": 150
             },
             {
@@ -1505,7 +1505,7 @@
               "masterid": "0",
               "controltype": null,
               "attrtype": "nvarchar",
-              "api_name": "mobile",
+              "api_name": "createdon",
               "columnwidth": 150
             },
             {
@@ -1527,285 +1527,346 @@
       "message": "Fetched successfully",
       "data": {
         "datas": [
-          {
-            "id": 2,
-            "ticketname": "TCK-1001",
-            "Category": "Communication",
-            "Subcategory": "Server Issue",
-            "ticket_title": "Email Not Syncing",
-            "Assigned User": "John Smith",
-            "Priority": "High",
-            "Status": "Open",
-            "primary_number": "IT/Admin",
-            "language": "Emily Davis",
-            "mobile": "9/1/2025",
-            "country": "9/5/2025",
-            "lead_owner": "4 days",
-            "TicketDescription": "Email not syncing",
-            "ticketowner": "Sarah Thomas"
-          },
-          {
-            "id": 3,
-            "ticketname": "TCK-1002",
-            "Category": "Data Request",
-            "Subcategory": "Requirement",
-            "email": "emma.w@company.com",
-            "ticket_title": "Request for new dataset",
-            "Assigned User": "Sarah Johnson",
-            "priority": "Medium",
-            "status": "New",
-            "primary_number": "Product Analyst",
-            "language": "Michael Brown",
-            "mobile": "9/10/2025",
-            "country": "9/20/2025",
-            "lead_owner": "10 days",
-            "TicketDescription": "Request for new dataset",
-            "ticketowner": "Bruce Lee"
-          },
-          {
-            "id": 4,
-            "ticketname": "TCK-1003",
-            "Category": "Feature Request",
-            "Subcategory": "Approval",
-            "email": "michael.t@example.com",
-            "ticket_title": "Future enhancement in CRM",
-            "Assigned User": "Robert White",
-            "priority": "Critical",
-            "status": "In Progress",
-            "primary_number": "Development",
-            "language": "Daniel Lee",
-            "mobile": "9/5/2025",
-            "country": "9/25/2025",
-            "lead_owner": "20 days",
-            "TicketDescription": "Feature enhancement in CRM",
-            "ticketowner": "David Millar"
-          },
-          {
-            "id": 5,
-            "ticketname": "TCK-1004",
-            "Category": "Invoice",
-            "Subcategory": "Clarification",
-            "email": "sophia.r@samplemail.com",
-            "ticket_title": "Invoice correction",
-            "Assigned User": "Oliva Clark",
-            "priority": "Medium",
-            "status": "Resolved",
-            "primary_number": "Finance",
-            "language": "Sophia Wilson",
-            "mobile": "8/28/2025",
-            "country": "9/3/2025",
-            "lead_owner": "6 days",
-            "TicketDescription": "Invoice correction",
-            "ticketowner": "Amanda Davis"
-          },
-          {
-            "id": 6,
-            "ticketname": "TCK-1005",
-            "Category": "Software Access",
-            "Subcategory": "Request",
-            "email": "david.l@company.com",
-            "ticket_title": "Access to HR software",
-            "Assigned User": "William Hall",
-            "priority": "Low",
-            "status": "Closed",
-            "primary_number": "Human Resource",
-            "language": "Ethan Walker",
-            "mobile": "9/3/2025",
-            "country": "9/6/2025",
-            "lead_owner": "3 days",
-            "TicketDescription": "Access to HR software",
-            "ticketowner": "Sarah Thomas"
-          },
-          {
-            "id": 7,
-            "ticketname": "TCK-1006",
-            "Category": "Product Discount",
-            "Subcategory": "Approval",
-            "email": "linda.d@example.com",
-            "ticket_title": "Product discount approval",
-            "Assigned User": "James King",
-            "priority": "High",
-            "status": "Hold",
-            "primary_number": "Sales",
-            "language": "Mia Thomas",
-            "mobile": "9/12/2025",
-            "country": "9/12/2025",
-            "timezone": "Eastern",
-            "lead_owner": "18 days",
-            "TicketDescription": "Product discount approval",
-            "ticketowner": "John Robert"
-          },
-          {
-            "id": 8,
-            "ticketname": "TCK-1007",
-            "Category": "Communication",
-            "Subcategory": "Execution",
-            "email": "james.b@company.com",
-            "ticket_title": "Sever downtime issue",
-            "Assigned User": "David Allen",
-            "priority": "Critical",
-            "status": "Reopen",
-            "primary_number": "Admin",
-            "language": "Lucas Martin",
-            "mobile": "9/7/2025",
-            "country": "9/9/2025",
-            "lead_owner": "2 days",
-            "timezone": "Mountain",
-            "TicketDescription": "Server downtime issue",
-            "ticketowner": "Sarah Thomas"
-          },
-          {
-            "id": 9,
-            "ticketname": "TCK-1008",
-            "Category": "Invoice",
-            "Subcategory": "Clarification",
-            "email": "olivia.m@samplemail.com",
-            "ticket_title": "Clarification on tax invoice",
-            "Assigned User": "Emma Harris",
-            "priority": "Medium",
-            "status": "New",
-            "primary_number": "Finance",
-            "language": "Mason Taylor",
-            "mobile": "9/15/2025",
-            "country": "9/15/2025",
-            "lead_owner": "7 days",
-            "timezone": "Central",
-            "TicketDescription": "Clarification on tax invoice",
-            "ticketowner": "Bruce Lee"
-          },
-          {
-            "id": 10,
-            "ticketname": "TCK-1009",
-            "Category": "Permission",
-            "Subcategory": "Request",
-            "email": "robert.k@example.com",
-            "ticket_title": "Request for AWS credentials",
-            "Assigned User": "Henry Scott",
-            "priority": "High",
-            "status": "Open",
-            "primary_number": "Development",
-            "language": "Charlotte Hill",
-            "mobile": "9/14/2025",
-            "country": "9/14/2025",
-            "lead_owner": "4 days",
-            "timezone": "Pacific",
-            "TicketDescription": "Request for AWS credentials",
-            "ticketowner": "John Robert"
-          },
-          {
-            "id": 11,
-            "ticketname": "TCK-1010",
-            "Category": "Data Request",
-            "Subcategory": "Requirement",
-            "email": "mia.j@company.com",
-            "ticket_title": "Requirement doc submission",
-            "Assigned User": "Isabella Young",
-            "priority": "Low",
-            "status": "Closed",
-            "primary_number": "Product Analyst",
-            "language": "Liam Green",
-            "mobile": "8/25/2025",
-            "country": "9/1/2025",
-            "lead_owner": "7 days",
-            "timezone": "Eastern",
-            "TicketDescription": "Requirement doc submission",
-            "ticketowner": "Jr Trump"
-          },
-          {
-            "id": 12,
-            "ticketname": "TCK-1011",
-            "Category": "Software Access",
-            "Subcategory": "Approval",
-            "email": "william.n@example.com",
-            "ticket_title": "Laptop access permission",
-            "Assigned User": "Jacob Adams",
-            "priority": "Medium",
-            "status": "In Progress",
-            "primary_number": "Admin",
-            "language": "Benjamin Lewis",
-            "mobile": "9/11/2025",
-            "country": "9/11/2025",
-            "lead_owner": "8 days",
-            "timezone": "Mountain",
-            "TicketDescription": "Laptop access permission",
-            "ticketowner": "Daisy James"
-          },
-          {
-            "id": 13,
-            "ticketname": "TCK-1012",
-            "Category": "Product Discount",
-            "Subcategory": "Request",
-            "email": "isabella.v@samplemail.com",
-            "ticket_title": "Disconut request from client",
-            "Assigned User": "Jack Turner",
-            "priority": "High",
-            "status": "Resolved",
-            "primary_number": "Sales",
-            "language": "Ella Perez",
-            "mobile": "9/6/2025",
-            "country": "9/6/2025",
-            "lead_owner": "6 days",
-            "timezone": "Central",
-            "TicketDescription": "Discount request from client",
-            "ticketowner": "Sarah Thomas"
-          },
-          {
-            "id": 14,
-            "ticketname": "TCK-1013",
-            "Category": "Communication",
-            "Subcategory": "Clarification",
-            "email": "daniel.p@company.com",
-            "ticket_title": "Payroll clarification",
-            "Assigned User": "Lucas Carter",
-            "priority": "Medium",
-            "status": "Open",
-            "primary_number": "Human Resource",
-            "language": "Grace Evans",
-            "mobile": "9/8/2025",
-            "country": "9/8/2025",
-            "lead_owner": "7 days",
-            "timezone": "Pacific",
-            "TicketDescription": "Payroll clarification",
-            "ticketowner": "Bruce Lee"
-          },
-          {
-            "id": 15,
-            "ticketname": "TCK-1014",
-            "Category": "Feature Request",
-            "Subcategory": "Execution",
-            "email": "ella.h@example.com",
-            "ticket_title": "Execution of new feature",
-            "Assigned User": "Daniel Baker",
-            "priority": "Critical",
-            "status": "New",
-            "primary_number": "Development",
-            "language": "Amelia Rivera",
-            "mobile": "9/16/2025",
-            "country": "9/16/2025",
-            "lead_owner": "12 days",
-            "timezone": "Eastern",
-            "TicketDescription": "Execution of new feature",
-            "ticketowner": "Sarah Thomas"
-          },
-          {
-            "id": 16,
-            "ticketname": "TCK-1015",
-            "Category": "Permission",
-            "Subcategory": "Server Issue",
-            "email": "matthew.r@samplemail.com",
-            "ticket_title": "VPN connection",
-            "Assigned User": "Matthew Ward",
-            "priority": "High",
-            "status": "Hold",
-            "primary_number": "IT/Admin",
-            "language": "Harper Brooks",
-            "mobile": "9/13/2025",
-            "country": "9/17/2025",
-            "lead_owner": "4 days",
-            "timezone": "Mountain",
-            "TicketDescription": "VPN connection",
-            "ticketowner": "Jessica Lee"
-          }
+            {
+              "id": 1,
+              "ticketid": "TCK-1001",
+              "tickettitle": "Access Badge Issue",
+              "TicketDescription": "Employee cannot access building after hours",
+              "Priority": "High",
+              "urgencyreason": "Security concern",
+              "Status": "New",
+              "Category": "Employee request",
+              "Subcategory": "Permission Request",
+              "Department": "HR",
+              "assignedto": "John Smith",
+              "createdby": "Emily Davis",
+              "createdon": "9/1/2025",
+              "country": "9/2/2025",
+              "lead_owner": "1 days"
+            },
+            {
+              "id": 2,
+              "ticketid": "TCK-1002",
+              "tickettitle": "Payroll Discrepancy",
+              "TicketDescription": "Incorrect salary credited this month",
+              "Priority": "Critical",
+              "urgencyreason": "Payment delay affecting bills",
+              "Status": "Open",
+              "Category": "Payroll & compensation",
+              "Subcategory": "Salary slip Issue",
+              "Department": "HR",
+              "assignedto": "Michael Brown",
+              "createdby": "Sophia Wilson",
+              "createdon": "9/2/2025",
+              "country": "9/4/2025",
+              "lead_owner": "2 days"
+            },
+            {
+              "id": 3,
+              "ticketid": "TCK-1003",
+              "tickettitle": "Work From Home Approval",
+              "TicketDescription": "Request WFH for next week",
+              "Priority": "Medium",
+              "urgencyreason": "",
+              "Status": "In progress",
+              "Category": "Employee request",
+              "Subcategory": "Work from Home Policy",
+              "Department": "HR",
+              "assignedto": "David Lee",
+              "createdby": "Olivia Martin",
+              "createdon": "9/3/2025",
+              "country": "9/6/2025",
+              "lead_owner": "3 days"
+            },
+            {
+              "id": 4,
+              "ticketid": "TCK-1004",
+              "tickettitle": "Network Outage",
+              "TicketDescription": "Unable to connect to VPN",
+              "Priority": "Critical",
+              "urgencyreason": "Business impacted",
+              "Status": "Picked Up",
+              "Category": "Network",
+              "Subcategory": "",
+              "Department": "IT support",
+              "assignedto": "Chris Evans",
+              "createdby": "Emma Thompson",
+              "createdon": "9/4/2025",
+              "country": "9/8/2025",
+              "lead_owner": "4 days"
+            },
+            {
+              "id": 5,
+              "ticketid": "TCK-1005",
+              "tickettitle": "Policy Clarification Needed",
+              "TicketDescription": "Clarify leave encashment policy",
+              "Priority": "Low",
+              "urgencyreason": "",
+              "Status": "Awaiting customer",
+              "Category": "Policy clarification",
+              "Subcategory": "Leave Request",
+              "Department": "HR",
+              "assignedto": "Daniel Harris",
+              "createdby": "Ava Clark",
+              "createdon": "9/5/2025",
+              "country": "9/10/2025",
+              "lead_owner": "5 days"
+            },
+            {
+              "id": 6,
+              "ticketid": "TCK-1006",
+              "tickettitle": "Laptop Hardware Issue",
+              "TicketDescription": "Screen flickering on laptop",
+              "Priority": "High",
+              "urgencyreason": "Affects productivity",
+              "Status": "Hold",
+              "Category": "Hardware",
+              "Subcategory": "",
+              "Department": "IT support",
+              "assignedto": "Matthew Scott",
+              "createdby": "Isabella Walker",
+              "createdon": "9/6/2025",
+              "country": "9/7/2025",
+              "lead_owner": "1 days"
+            },
+            {
+              "id": 7,
+              "ticketid": "TCK-1007",
+              "tickettitle": "Update Contact Details",
+              "TicketDescription": "Change personal phone number in records",
+              "Priority": "Low",
+              "urgencyreason": "",
+              "Status": "Resolved",
+              "Category": "Employee request",
+              "Subcategory": "",
+              "Department": "Administrator",
+              "assignedto": "Andrew Young",
+              "createdby": "Mia Hall",
+              "createdon": "9/7/2025",
+              "country": "9/9/2025",
+              "lead_owner": "2 days"
+            },
+            {
+              "id": 8,
+              "ticketid": "TCK-1008",
+              "tickettitle": "Application Crash on Login",
+              "TicketDescription": "App crashes for some users when logging in",
+              "Priority": "Critical",
+              "urgencyreason": "System instability",
+              "Status": "New",
+              "Category": "Application support",
+              "Subcategory": "",
+              "Department": "Development",
+              "assignedto": "Joseph King",
+              "createdby": "Charlotte Green",
+              "createdon": "9/1/2025",
+              "country": "9/4/2025",
+              "lead_owner": "3 days"
+            },
+            {
+              "id": 9,
+              "ticketid": "TCK-1009",
+              "tickettitle": "Salary Slip Delivery Delay",
+              "TicketDescription": "Salary slips late delivery",
+              "Priority": "High",
+              "urgencyreason": "Compliance concern",
+              "Status": "Open",
+              "Category": "Payroll & compensation",
+              "Subcategory": "Salary slip Issue",
+              "Department": "HR",
+              "assignedto": "Ryan Adams",
+              "createdby": "Amelia Baker",
+              "createdon": "9/2/2025",
+              "country": "9/6/2025",
+              "lead_owner": "4 days"
+            },
+            {
+              "id": 10,
+              "ticketid": "TCK-1010",
+              "tickettitle": "Request for Holiday Permission",
+              "TicketDescription": "Permission to leave early next Friday",
+              "Priority": "Medium",
+              "urgencyreason": "",
+              "Status": "Picked Up",
+              "Category": "Employee request",
+              "Subcategory": "Permission Request",
+              "Department": "HR",
+              "assignedto": "Nathan Perez",
+              "createdby": "Harper Nelson",
+              "createdon": "9/3/2025",
+              "country": "9/8/2025",
+              "lead_owner": "5 days"
+            },
+            {
+              "id": 11,
+              "ticketid": "TCK-1011",
+              "tickettitle": "Benefits Enrollment Question",
+              "TicketDescription": "Need more info about health insurance coverage",
+              "Priority": "Low",
+              "urgencyreason": "",
+              "Status": "In progress",
+              "Category": "Benefits",
+              "Subcategory": "",
+              "Department": "HR",
+              "assignedto": "Aaron White",
+              "createdby": "Lily Carter",
+              "createdon": "9/4/2025",
+              "country": "9/5/2025",
+              "lead_owner": "1 days"
+            },
+            {
+              "id": 12,
+              "ticketid": "TCK-1012",
+              "tickettitle": "Software Installation Request",
+              "TicketDescription": "Request Adobe Photoshop on work PC",
+              "Priority": "Medium",
+              "urgencyreason": "",
+              "Status": "Awaiting customer",
+              "Category": "Application support",
+              "Subcategory": "",
+              "Department": "IT support",
+              "assignedto": "Brandon Lewis",
+              "createdby": "Grace Mitchell",
+              "createdon": "9/5/2025",
+              "country": "9/7/2025",
+              "lead_owner": "2 days"
+            },
+            {
+              "id": 13,
+              "ticketid": "TCK-1013",
+              "tickettitle": "Payroll Tax Deduction Query",
+              "TicketDescription": "Clarify tax amount deducted in latest salary",
+              "Priority": "High",
+              "urgencyreason": "Potential calculation error",
+              "Status": "New",
+              "Category": "Payroll & compensation",
+              "Subcategory": "Salary slip Issue",
+              "Department": "HR",
+              "assignedto": "Carter Hill",
+              "createdby": "Chloe Turner",
+              "createdon": "9/6/2025",
+              "country": "9/9/2025",
+              "lead_owner": "3 days"
+            },
+            {
+              "id": 14,
+              "ticketid": "TCK-1014",
+              "tickettitle": "Employee Onboarding Access",
+              "TicketDescription": "Setup email and software access for new hire",
+              "Priority": "Critical",
+              "urgencyreason": "New employee joining urgent",
+              "Status": "Open",
+              "Category": "Employee request",
+              "Subcategory": "",
+              "Department": "Administrator",
+              "assignedto": "Dylan Ward",
+              "createdby": "Ella Parker",
+              "createdon": "9/7/2025",
+              "country": "9/10/2025",
+              "lead_owner": "3 days"
+            },
+            {
+              "id": 15,
+              "ticketid": "TCK-1015",
+              "tickettitle": "Network Speed Issue",
+              "TicketDescription": "Slow network speeds in 3rd floor office",
+              "Priority": "Medium",
+              "urgencyreason": "",
+              "Status": "Resolved",
+              "Category": "Network",
+              "Subcategory": "",
+              "Department": "IT support",
+              "assignedto": "Ethan Cox",
+              "createdby": "Scarlett Evans",
+              "createdon": "9/1/2025",
+              "country": "9/3/2025",
+              "lead_owner": "2 days"
+            },
+            {
+              "id": 16,
+              "ticketid": "TCK-1016",
+              "tickettitle": "Leave Balance Discrepancy",
+              "TicketDescription": "Leave balance not updated after recent leave",
+              "Priority": "High",
+              "urgencyreason": "Payroll impact",
+              "Status": "Hold",
+              "Category": "Payroll & compensation",
+              "Subcategory": "Leave Request",
+              "Department": "HR",
+              "assignedto": "Frank Reed",
+              "createdby": "Victoria Collins",
+              "createdon": "9/2/2025",
+              "country": "9/6/2025",
+              "lead_owner": "4 days"
+            },
+            {
+              "id": 17,
+              "ticketid": "TCK-1017",
+              "tickettitle": "Password Reset Required",
+              "TicketDescription": "User unable to reset password via portal",
+              "Priority": "High",
+              "urgencyreason": "Security risk",
+              "Status": "Picked Up",
+              "Category": "Application support",
+              "Subcategory": "",
+              "Department": "IT support",
+              "assignedto": "George Price",
+              "createdby": "Hannah Brooks",
+              "createdon": "9/3/2025",
+              "country": "9/4/2025",
+              "lead_owner": "1 days"
+            },
+            {
+              "id": 18,
+              "ticketid": "TCK-1018",
+              "tickettitle": "Clarify WFH Eligibility",
+              "TicketDescription": "Employee unsure of work-from-home eligibility",
+              "Priority": "Low",
+              "urgencyreason": "",
+              "Status": "New",
+              "Category": "Policy clarification",
+              "Subcategory": "Work from Home Policy",
+              "Department": "HR",
+              "assignedto": "Henry Long",
+              "createdby": "Zoe Rogers",
+              "createdon": "9/4/2025",
+              "country": "9/8/2025",
+              "lead_owner": "4 days"
+            },
+            {
+              "id": 19,
+              "ticketid": "TCK-1019",
+              "tickettitle": "Hardware Upgrade Request",
+              "TicketDescription": "Request new RAM for slow laptop",
+              "Priority": "Medium",
+              "urgencyreason": "",
+              "Status": "In progress",
+              "Category": "Hardware",
+              "Subcategory": "",
+              "Department": "IT support",
+              "assignedto": "Isaac Bell",
+              "createdby": "Layla Murphy",
+              "createdon": "9/5/2025",
+              "country": "9/9/2025",
+              "lead_owner": "4 days"
+            },
+            {
+              "id": 20,
+              "ticketid": "TCK-1020",
+              "tickettitle": "Customer Complaint Follow-up",
+              "TicketDescription": "Follow up on customer's unresolved issue",
+              "Priority": "Critical",
+              "urgencyreason": "SLA breached",
+              "Status": "Awaiting customer",
+              "Category": "Customer support",
+              "Subcategory": "",
+              "Department": "Customer support",
+              "assignedto": "Jack Cooper",
+              "createdby": "Nora Bailey",
+              "createdon": "9/6/2025",
+              "duedate": "9/10/2025",
+              "lead_owner": "4 days"
+            }
         ],
         "totalRecords": 15
       },
@@ -1881,7 +1942,7 @@
                     "attrtype": "nvarchar",
                     "api_name": "time_zone",
                     "visible": true,
-                    "displayapiname": "ticketname",
+                    "displayapiname": "ticketid",
                     "inlineeditable": null,
                     "istitle": true,
                     "isdate": false,
@@ -1913,9 +1974,9 @@
                     "masterid": "",
                     "controltype": null,
                     "attrtype": "nvarchar",
-                    "api_name": "language",
+                    "api_name": "createdby",
                     "visible": true,
-                    "displayapiname": "language",
+                    "displayapiname": "createdby",
                     "inlineeditable": null,
                     "istitle": false,
                     "isdate": false,
@@ -1998,9 +2059,9 @@
                     "masterid": "",
                     "controltype": "textbox",
                     "attrtype": "nvarchar",
-                    "api_name": "mobile",
+                    "api_name": "createdon",
                     "visible": true,
-                    "displayapiname": "mobile",
+                    "displayapiname": "createdon",
                     "inlineeditable": null,
                     "istitle": false,
                     "isdate": false,
@@ -2008,7 +2069,7 @@
                   },
                   {
                     "id": "21956e74-d8cd-42ce-80f4-145e52f84407",
-                    "name": "Assigned User",
+                    "name": "assignedto",
                     "lablekey": "lbl-users-Phone",
                     "columnwidth": 150,
                     "seqno": 9,
@@ -2017,7 +2078,7 @@
                     "attrtype": "nvarchar",
                     "api_name": "phone",
                     "visible": true,
-                    "displayapiname": "Assigned User",
+                    "displayapiname": "assignedto",
                     "inlineeditable": null,
                     "istitle": false,
                     "isdate": false,
@@ -2100,7 +2161,7 @@
                     "masterid": "1010",
                     "controltype": null,
                     "attrtype": "nvarchar",
-                    "api_name": "ticket_title",
+                    "api_name": "tickettitle",
                     "visible": true,
                     "displayapiname": "TicketDescription",
                     "inlineeditable": null,
@@ -8691,7 +8752,7 @@
                     "attrtype": "nvarchar",
                     "api_name": "time_zone",
                     "visible": true,
-                    "displayapiname": "ticketname",
+                    "displayapiname": "ticketid",
                     "inlineeditable": null,
                     "istitle": true,
                     "isdate": false,
@@ -8760,9 +8821,9 @@
                     "masterid": "1010",
                     "controltype": null,
                     "attrtype": "nvarchar",
-                    "api_name": "ticket_title",
+                    "api_name": "tickettitle",
                     "visible": true,
-                    "displayapiname": "ticket_title",
+                    "displayapiname": "tickettitle",
                     "inlineeditable": null,
                     "istitle": false,
                     "isdate": false,
@@ -8847,10 +8908,10 @@
         "datas": [
           {
             "id": 2,
-            "ticketname": "TCK-1001",
+            "ticketid": "TCK-1001",
             "Category": "Communication",
   
-            "ticket_title": "Email Not Syncing",
+            "tickettitle": "Email Not Syncing",
   
             "Priority": "High",
             "country": "50m",
@@ -8858,9 +8919,9 @@
           },
           {
             "id": 3,
-            "ticketname": "TCK-1002",
+            "ticketid": "TCK-1002",
             "Category": "Data Request",
-            "ticket_title": "Request for new dataset",
+            "tickettitle": "Request for new dataset",
   
             "priority": "Medium",
             "country": "50m",
@@ -8868,10 +8929,10 @@
           },
           {
             "id": 4,
-            "ticketname": "TCK-1003",
+            "ticketid": "TCK-1003",
             "Category": "Feature Request",
   
-            "ticket_title": "Future enhancement in CRM",
+            "tickettitle": "Future enhancement in CRM",
   
             "priority": "Critical",
             "country": "50m",
@@ -8879,10 +8940,10 @@
           },
           {
             "id": 5,
-            "ticketname": "TCK-1004",
+            "ticketid": "TCK-1004",
             "Category": "Invoice",
   
-            "ticket_title": "Invoice correction",
+            "tickettitle": "Invoice correction",
   
             "priority": "Medium",
             "country": "50m",
@@ -8890,10 +8951,10 @@
           },
           {
             "id": 6,
-            "ticketname": "TCK-1005",
+            "ticketid": "TCK-1005",
             "Category": "Software Access",
   
-            "ticket_title": "Access to HR software",
+            "tickettitle": "Access to HR software",
   
             "priority": "Low",
             "country": "50m",
@@ -8901,10 +8962,10 @@
           },
           {
             "id": 7,
-            "ticketname": "TCK-1006",
+            "ticketid": "TCK-1006",
             "Category": "Product Discount",
   
-            "ticket_title": "Product discount approval",
+            "tickettitle": "Product discount approval",
   
             "priority": "High",
             "country": "50m",
@@ -8912,10 +8973,10 @@
           },
           {
             "id": 8,
-            "ticketname": "TCK-1007",
+            "ticketid": "TCK-1007",
             "Category": "Communication",
   
-            "ticket_title": "Sever downtime issue",
+            "tickettitle": "Sever downtime issue",
   
             "priority": "Critical",
             "country": "50m",
@@ -8923,10 +8984,10 @@
           },
           {
             "id": 9,
-            "ticketname": "TCK-1008",
+            "ticketid": "TCK-1008",
             "Category": "Invoice",
   
-            "ticket_title": "Clarification on tax invoice",
+            "tickettitle": "Clarification on tax invoice",
   
             "priority": "Medium",
             "country": "50m",
@@ -8934,10 +8995,10 @@
           },
           {
             "id": 10,
-            "ticketname": "TCK-1009",
+            "ticketid": "TCK-1009",
             "Category": "Permission",
   
-            "ticket_title": "Request for AWS credentials",
+            "tickettitle": "Request for AWS credentials",
   
             "priority": "High",
             "country": "50m",
@@ -8945,10 +9006,10 @@
           },
           {
             "id": 11,
-            "ticketname": "TCK-1010",
+            "ticketid": "TCK-1010",
             "Category": "Data Request",
   
-            "ticket_title": "Requirement doc submission",
+            "tickettitle": "Requirement doc submission",
   
             "priority": "Low",
             "country": "50m",
@@ -8956,10 +9017,10 @@
           },
           {
             "id": 12,
-            "ticketname": "TCK-1011",
+            "ticketid": "TCK-1011",
             "Category": "Software Access",
   
-            "ticket_title": "Laptop access permission",
+            "tickettitle": "Laptop access permission",
   
             "priority": "Medium",
             "country": "50m",
@@ -8967,10 +9028,10 @@
           },
           {
             "id": 13,
-            "ticketname": "TCK-1012",
+            "ticketid": "TCK-1012",
             "Category": "Product Discount",
   
-            "ticket_title": "Disconut request from client",
+            "tickettitle": "Disconut request from client",
   
             "priority": "High",
             "country": "50m",
@@ -9105,7 +9166,7 @@
               "masterid": "0",
               "controltype": null,
               "attrtype": "nvarchar",
-              "api_name": "ticket_title",
+              "api_name": "tickettitle",
               "columnwidth": 150
             },
             {
@@ -9231,7 +9292,7 @@
               "masterid": "0",
               "controltype": null,
               "attrtype": "nvarchar",
-              "api_name": "language",
+              "api_name": "createdby",
               "columnwidth": 150
             },
             {
@@ -10697,7 +10758,7 @@
               "masterid": "0",
               "controltype": null,
               "attrtype": "nvarchar",
-              "api_name": "ticket_title",
+              "api_name": "tickettitle",
               "columnwidth": 150
             },
             {
@@ -13131,7 +13192,7 @@
                     "attrtype": "nvarchar",
                     "api_name": "time_zone",
                     "visible": true,
-                    "displayapiname": "ticketname",
+                    "displayapiname": "ticketid",
                     "inlineeditable": null,
                     "istitle": true,
                     "isdate": false,
@@ -13164,9 +13225,9 @@
                     "masterid": "1010",
                     "controltype": null,
                     "attrtype": "nvarchar",
-                    "api_name": "ticket_title",
+                    "api_name": "tickettitle",
                     "visible": true,
-                    "displayapiname": "ticket_title",
+                    "displayapiname": "tickettitle",
                     "inlineeditable": null,
                     "istitle": false,
                     "isdate": false,
@@ -13251,57 +13312,57 @@
         "datas": [
           {
             "id": 2,
-            "ticketname": "TCK-1001",
-            "ticket_title": "Email Not Syncing",
+            "ticketid": "TCK-1001",
+            "tickettitle": "Email Not Syncing",
             "country": "4 days",
             "mobile": "High"
           },
           {
             "id": 3,
-            "ticketname": "TCK-1002",
-            "ticket_title": "Request for new dataset",
+            "ticketid": "TCK-1002",
+            "tickettitle": "Request for new dataset",
             "country": "4 days",
             "mobile": "High"
           },
           {
             "id": 4,
-            "ticketname": "TCK-1003",
-            "ticket_title": "Future enhancement in CRM",
+            "ticketid": "TCK-1003",
+            "tickettitle": "Future enhancement in CRM",
             "country": "4 days",
             "mobile": "High"
           },
           {
             "id": 5,
-            "ticketname": "TCK-1004",
-            "ticket_title": "Invoice correction",
+            "ticketid": "TCK-1004",
+            "tickettitle": "Invoice correction",
             "country": "4 days",
             "mobile": "High"
           },
           {
             "id": 6,
-            "ticketname": "TCK-1005",
-            "ticket_title": "Access to HR software",
+            "ticketid": "TCK-1005",
+            "tickettitle": "Access to HR software",
             "country": "4 days",
             "mobile": "High"
           },
           {
             "id": 7,
-            "ticketname": "TCK-1006",
-            "ticket_title": "Product discount approval",
+            "ticketid": "TCK-1006",
+            "tickettitle": "Product discount approval",
             "country": "4 days",
             "mobile": "High"
           },
           {
             "id": 8,
-            "ticketname": "TCK-1007",
-            "ticket_title": "Sever downtime issue",
+            "ticketid": "TCK-1007",
+            "tickettitle": "Sever downtime issue",
             "country": "4 days",
             "mobile": "High"
           },
           {
             "id": 9,
-            "ticketname": "TCK-1012",
-            "ticket_title": "Disconut request from client",
+            "ticketid": "TCK-1012",
+            "tickettitle": "Disconut request from client",
             "country": "4 days",
             "mobile": "High"
           }
@@ -13435,7 +13496,7 @@
               "masterid": "0",
               "controltype": null,
               "attrtype": "nvarchar",
-              "api_name": "ticket_title",
+              "api_name": "tickettitle",
               "columnwidth": 150
             },
             {
@@ -13561,7 +13622,7 @@
               "masterid": "0",
               "controltype": null,
               "attrtype": "nvarchar",
-              "api_name": "language",
+              "api_name": "createdby",
               "columnwidth": 150
             },
             {
@@ -14085,7 +14146,7 @@
                     "masterid": "1010",
                     "controltype": null,
                     "attrtype": "nvarchar",
-                    "api_name": "ticket_title",
+                    "api_name": "tickettitle",
                     "visible": true,
                     "displayapiname": "severity",
                     "inlineeditable": null,
@@ -22087,6 +22148,501 @@
             "groupbyid": "4",
             "groupbytext": "Paid"
           }
+        ]
+      },
+      "correlationId": ""
+    },
+    "Kb_getlookupdatabyid": {
+      "data": {
+        "statusCode": 1000,
+        "message": "List of Masters for Tenant",
+        "data": [
+          {
+            "id": 1010,
+            "valuekey": "userstatus",
+            "labels": {},
+            "jsonmetadata": null,
+            "masterdata": [
+              {
+                "id": 101101,
+                "valueKey": "In-Review"
+              },
+              {
+                "id": 101102,
+                "valueKey": "Draft"
+              },
+              {
+                "id": 101103,
+                "valueKey": "Published"
+              }
+              
+            ],
+            "isactive": true,
+            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+          },
+          {
+            "id": 1011,
+            "valuekey": "userstatus",
+            "labels": {},
+            "jsonmetadata": null,
+            "masterdata": [
+              {
+                "id": 101101,
+                "valueKey": "Internal"
+              },
+              {
+                "id": 101102,
+                "valueKey": "Public"
+              }
+            ],
+            "isactive": true,
+            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+          },
+          {
+            "id": 1012,
+            "valuekey": "userstatus",
+            "labels": {},
+            "jsonmetadata": null,
+            "masterdata": [
+              {
+                "id": 101101,
+                "valueKey": "Access Issues"
+              },
+              {
+                "id": 101102,
+                "valueKey": "Billing Support"
+              },
+              {
+                "id": 101103,
+                "valueKey": "Security"
+              }
+            ],
+            "isactive": true,
+            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+          }
+        ],
+        "correlationId": null
+      }
+    },
+    "Kb_getlistconfigbyid": {
+      "result": {
+        "statusCode": 1000,
+        "message": "Fetched successfully",
+        "data": {
+          "list": {
+            "id": "44444444-4444-4444-4444-444444444401",
+            "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
+            "entityname": "arc_roles",
+            "name": "All Lead details",
+            "header": {
+              "name": "arc_roles"
+            },
+            "type": "List",
+            "data": {
+              "dataset": [
+                {
+                  "datasetid": "66666666-6666-6666-6666-666666666601",
+                  "title": "All Invoices",
+                  "isdefault": true,
+                  "isselected": true,
+                  "owner": "Ashok C",
+                  "viewtype": "",
+                  "seqno": 1
+                }
+              ],
+              "config": {
+                "listfields": [
+                  {
+                    "id": "01",
+                    "name": "Title",
+                    "lablekey": "lbl-users-timezone",
+                    "columnwidth": 180,
+                    "seqno": 1,
+                    "masterid": "1009",
+                    "controltype": null,
+                    "attrtype": "nvarchar",
+                    "api_name": "title",
+                    "visible": true,
+                    "displayapiname": "title",
+                    "inlineeditable": null,
+                    "istitle": true,
+                    "isdate": false,
+                    "islookup": false
+                  },
+                  {
+                    "id": "02",
+                    "name": "Category",
+                    "lablekey": "lbl-users-country",
+                    "columnwidth": 150,
+                    "seqno": 2,
+                    "masterid": "1008",
+                    "controltype": null,
+                    "attrtype": "nvarchar",
+                    "api_name": "category",
+                    "visible": true,
+                    "displayapiname": "category",
+                    "inlineeditable": null,
+                    "istitle": false,
+                    "isdate": false,
+                    "islookup": false
+                  },
+                  {
+                    "id": "03",
+                    "name": "Status",
+                    "lablekey": "lbl-users-jobtitle",
+                    "columnwidth": 160,
+                    "seqno": 3,
+                    "masterid": "",
+                    "controltype": null,
+                    "attrtype": "nvarchar",
+                    "api_name": "stlist",
+                    "visible": true,
+                    "displayapiname": "stlist",
+                    "inlineeditable": null,
+                    "istitle": false,
+                    "isdate": false,
+                    "islookup": false
+                  },
+                  {
+                    "id": "04",
+                    "name": "Visibility",
+                    "lablekey": "lbl-users-jobtitle",
+                    "columnwidth": 150,
+                    "seqno": 4,
+                    "masterid": "",
+                    "controltype": null,
+                    "attrtype": "nvarchar",
+                    "api_name": "visible",
+                    "visible": true,
+                    "displayapiname": "visible",
+                    "inlineeditable": null,
+                    "istitle": false,
+                    "isdate": false,
+                    "islookup": false
+                  },
+                  {
+                    "id": "05",
+                    "name": "Created By",
+                    "lablekey": "lbl-users-jobtitle",
+                    "columnwidth": 240,
+                    "seqno": 5,
+                    "masterid": "",
+                    "controltype": null,
+                    "attrtype": "nvarchar",
+                    "api_name": "createdby",
+                    "visible": true,
+                    "displayapiname": "createdby",
+                    "inlineeditable": null,
+                    "istitle": false,
+                    "isdate": false,
+                    "islookup": false
+                  },
+                  {
+                    "id": "06",
+                    "name": "assignedto",
+                    "lablekey": "lbl-users-jobtitle",
+                    "columnwidth": 150,
+                    "seqno": 6,
+                    "masterid": "",
+                    "controltype": null,
+                    "attrtype": "nvarchar",
+                    "api_name": "assignedto",
+                    "visible": true,
+                    "displayapiname": "assignedto",
+                    "inlineeditable": null,
+                    "istitle": false,
+                    "isdate": false,
+                    "islookup": false
+                  },
+                  {
+                    "id": "07",
+                    "name": "Created On",
+                    "lablekey": "lbl-users-jobtitle",
+                    "columnwidth": 150,
+                    "seqno": 7,
+                    "masterid": "",
+                    "controltype": null,
+                    "attrtype": "nvarchar",
+                    "api_name": "createdon",
+                    "visible": true,
+                    "displayapiname": "createdon",
+                    "inlineeditable": null,
+                    "istitle": false,
+                    "isdate": false,
+                    "islookup": false
+                  },
+                  {
+                    "id": "08",
+                    "name": "Due Date",
+                    "lablekey": "lbl-users-jobtitle",
+                    "columnwidth": 150,
+                    "seqno": 8,
+                    "masterid": "",
+                    "controltype": null,
+                    "attrtype": "nvarchar",
+                    "api_name": "duedate",
+                    "visible": true,
+                    "displayapiname": "duedate",
+                    "inlineeditable": null,
+                    "istitle": false,
+                    "isdate": false,
+                    "islookup": false
+                  },
+                  {
+                    "id": "09",
+                    "name": "Ticket Age",
+                    "lablekey": "lbl-users-jobtitle",
+                    "columnwidth": 150,
+                    "seqno": 9,
+                    "masterid": "",
+                    "controltype": null,
+                    "attrtype": "nvarchar",
+                    "api_name": "ticketage",
+                    "visible": true,
+                    "displayapiname": "ticketage",
+                    "inlineeditable": null,
+                    "istitle": false,
+                    "isdate": false,
+                    "islookup": false
+                  }
+                ],
+                "filterfields": [
+                  {
+                    "id": "73377d8a-3138-4eb6-889c-312225ef4d57",
+                    "name": "Title",
+                    "lablekey": "lbl-user-username",
+                    "seqno": 10,
+                    "filtercontroltype": "textbox",
+                    "isquickfilter": true,
+                    "api_name": "title",
+                    "islookup": false,
+                    "masterid": "",
+                    "apioutputskey": null,
+                    "isvisible": false,
+                    "apioutputvalue": null
+                  },
+                  {
+                    "id": "66666666-6666-6666-6666-666666666603",
+                    "name": "Status",
+                    "lablekey": "lbl-user-status",
+                    "seqno": 20,
+                    "filtercontroltype": "multiselect",
+                    "isquickfilter": true,
+                    "api_name": "is_active",
+                    "islookup": false,
+                    "masterid": "1010",
+                    "apioutputskey": null,
+                    "isvisible": false,
+                    "apioutputvalue": null
+                  },
+  
+                  {
+                    "id": "66666666-6666-6666-6666-666666666605",
+                    "name": "Visibility",
+                    "lablekey": "lbl-user-status",
+                    "seqno": 20,
+                    "filtercontroltype": "multiselect",
+                    "isquickfilter": true,
+                    "api_name": "is_active",
+                    "islookup": false,
+                    "masterid": "1011",
+                    "apioutputskey": null,
+                    "isvisible": false,
+                    "apioutputvalue": null
+                  },
+                  {
+                    "id": "66666666-6666-6666-6666-666666666606",
+                    "name": "Category",
+                    "lablekey": "lbl-user-status",
+                    "seqno": 20,
+                    "filtercontroltype": "multiselect",
+                    "isquickfilter": true,
+                    "api_name": "is_active",
+                    "islookup": false,
+                    "masterid": "1012",
+                    "apioutputskey": null,
+                    "isvisible": false,
+                    "apioutputvalue": null
+                  },
+                   {
+                    "id": "66666666-6666-6666-6666-666666666607",
+                    "name": "Created On",
+                    "lablekey": "lbl-user-status",
+                    "seqno": 20,
+                    "filtercontroltype": "datepicker",
+                    "isquickfilter": true,
+                    "api_name": "is_active",
+                    "islookup": false,
+                    "masterid": "1011",
+                    "apioutputskey": null,
+                    "isvisible": false,
+                    "apioutputvalue": null
+                  }
+                ],
+                "groupbyfields": [
+                  
+                ]
+              }
+            }
+          }
+        },
+        "correlationId": ""
+      }
+    },
+   "Kb_getdatasetfieldinfobyid": {
+      "result": {
+        "statusCode": 1000,
+        "message": "Fetched successfully",
+        "data": {
+          "id": "66666666-6666-6666-6666-666666666601",
+          "name": "All Invoices",
+          "owner": "Ashok C",
+          "listsortfield": "created_on",
+          "viewtype": null,
+          "celldataviewtype": null,
+          "listsortdir": "desc",
+          "isdefault": null,
+          "last_accessed_time": "2025-07-18T11:12:14",
+          "filters": [],
+          "groupby": [
+          
+          ],
+          "columns": [
+            {
+              "id": "01",
+              "seqno": 10,
+              "masterid": "0",
+              "controltype": null,
+              "attrtype": "nvarchar",
+              "api_name": "title",
+              "columnwidth": 180
+            },
+            {
+              "id": "02",
+              "seqno": 20,
+              "masterid": "0",
+              "controltype": null,
+              "attrtype": "nvarchar",
+              "api_name": "category",
+              "columnwidth": 150
+            },
+            {
+              "id": "03",
+              "seqno": 30,
+              "masterid": "0",
+              "controltype": null,
+              "attrtype": "nvarchar",
+              "api_name": "status",
+              "columnwidth": 160
+            },
+            {
+              "id": "04",
+              "seqno": 40,
+              "masterid": "0",
+              "controltype": null,
+              "attrtype": "nvarchar",
+              "api_name": "visible",
+              "columnwidth": 150
+            },
+            {
+              "id": "05",
+              "seqno": 50,
+              "masterid": "0",
+              "controltype": null,
+              "attrtype": "nvarchar",
+              "api_name": "createdby",
+              "columnwidth": 240
+            },
+            {
+              "id": "06",
+              "seqno": 60,
+              "masterid": "0",
+              "controltype": null,
+              "attrtype": "nvarchar",
+              "api_name": "assignedto",
+              "columnwidth": 150
+            },
+             {
+              "id": "07",
+              "seqno": 60,
+              "masterid": "0",
+              "controltype": null,
+              "attrtype": "nvarchar",
+              "api_name": "createdon",
+              "columnwidth": 150
+            },
+             {
+              "id": "08",
+              "seqno": 60,
+              "masterid": "0",
+              "controltype": null,
+              "attrtype": "nvarchar",
+              "api_name": "duedate",
+              "columnwidth": 150
+            },
+            {
+              "id": "09",
+              "seqno": 60,
+              "masterid": "0",
+              "controltype": null,
+              "attrtype": "nvarchar",
+              "api_name": "ticketage",
+              "columnwidth": 150
+            }
+          ]
+        },
+        "correlationId": ""
+      }
+    },
+    "Kb_listdata": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "datas":[
+         {
+           "title":"Unable to reset passowrd",
+           "category":"Access Issues",
+           "stlist":"In-Review",
+           "visible":"Internal",
+           "createdby":"Sarah Thompson",
+           "assignedto":"Daniel Brooks",
+           "createdon":"2025-09-02",
+           "duedate":"2025-09-02",
+           "ticketage":"3 days"
+         },
+          {
+           "title":"Troubleshooting payment failures",
+           "category":"Billing Support",
+           "stlist":"Draft",
+           "visible":"Internal",
+           "createdby":"Sarah Thompson",
+           "assignedto":"Daniel Brooks",
+           "createdon":"2025-09-02",
+           "duedate":"2025-09-02",
+           "ticketage":"3 days"
+         },
+          {
+           "title":"Setting up two-factor authentication",
+           "category":"Security",
+           "stlist":"Published",
+           "visible":"Internal",
+           "createdby":"Sarah Thompson",
+           "assignedto":"Daniel Brooks",
+           "createdon":"2025-09-02",
+           "duedate":"2025-09-02",
+           "ticketage":"3 days"
+         },
+          {
+           "title":"How to request a refund",
+           "category":"Billing Support",
+           "stlist":"In-Review",
+           "visible":"Internal",
+           "createdby":"Sarah Thompson",
+           "assignedto":"Daniel Brooks",
+           "createdon":"2025-09-02",
+           "duedate":"2025-09-02",
+           "ticketage":"3 days"
+         }
         ]
       },
       "correlationId": ""
