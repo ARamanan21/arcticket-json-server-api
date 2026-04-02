@@ -585,7 +585,7 @@
                   "masterid": "",
                   "controltype": null,
                   "attrtype": "nvarchar",
-                  "api_name": "country",
+                  "api_name": "Status",
                   "visible": true,
                   "displayapiname": "country",
                   "inlineeditable": null,
@@ -685,7 +685,7 @@
                   "seqno": 20,
                   "filtercontroltype": "dropdown",
                   "isquickfilter": true,
-                  "api_name": "is_active",
+                  "api_name": "Status",
                   "islookup": false,
                   "masterid": "1070",
                   "apioutputskey": null,
@@ -721,7 +721,66 @@
                   "apioutputvalue": null
                 }
               ],
-              "groupbyfields": []
+              "groupbyfields": [
+                {
+                  "id": "7d77e28a-dcf6-4b92-ad36-806753c8916a",
+                  "name": "Status",
+                  "labelkey": "lbl-customer-status",
+                  "seqno": 4,
+                  "api_name": "Status",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                },
+                {
+                  "id": "0874b091-de6d-473a-8e54-1dcca3623fdd",
+                  "name": "Priority",
+                  "labelkey": "lbl-customer-Priority",
+                  "seqno": 4,
+                  "api_name": "Priority",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                },
+                {
+                  "id": "89dc7f6b-9e80-4ce0-b305-6433bb1de33b",
+                  "name": "Source",
+                  "labelkey": "lbl-customer-Source",
+                  "seqno": 4,
+                  "api_name": "Source",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                },
+
+
+                
+                {
+                  "id": "6e51a2b3-4c9e-4091-bea3-f0ebc6a565c0",
+                  "name": "Priority",
+                  "labelkey": "lbl-customer-Priority",
+                  "seqno": 5,
+                  "api_name": "Priority",
+                  "type": "Vertical",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                },
+                {
+                  "id": "6195d431-fea3-4c59-8dd7-b6a57a1124a0",
+                  "name": "Status",
+                  "labelkey": "lbl-customer-Status",
+                  "seqno": 5,
+                  "api_name": "Status",
+                  "type": "Vertical",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                }
+              ]
             }
           }
         }
@@ -1489,6 +1548,575 @@
         },
         "correlationId": ""
       }
-    }
+    },
+    
+  "Agent_listdata": {
+    "statusCode": 1000,
+    "message": "Fetched successfully",
+    "data": {
+      "datas": [
+        {
+          "agentId": "A001",
+          "agentname": "James Will",
+          "role": "Manager",
+          "department": "Development",
+          "group": "-",
+          "skills": "Technical Support",
+          "grade": "Senior",
+          "maxcapacity": 15,
+          "country": "Active"
+        },
+        {
+          "agentId": "A002",
+          "agentname": "Mike John",
+          "role": "Agent",
+          "department": "Product Owner",
+          "group": "-",
+          "skills": "Product Expert",
+          "grade": "Mid-level",
+          "maxcapacity": 20,
+          "country": "Active"
+        },
+        {
+          "agentId": "A003",
+          "agentname": "Sarah Johnson",
+          "role": "Agent",
+          "department": "IT",
+          "group": "-",
+          "skills": "Network Troubleshooting",
+          "grade": "Junior",
+          "maxcapacity": 10,
+          "country": "Active"
+        },
+        {
+          "agentId": "A004",
+          "agentname": "David Kim",
+          "role": "Agent",
+          "department": "QA",
+          "group": "-",
+          "skills": "Testing",
+          "grade": "Mid-level",
+          "maxcapacity": 15,
+          "country": "Inactive"
+        },
+        {
+          "agentId": "A005",
+          "agentname": "Michael Chen",
+          "role": "Supervisor",
+          "department": "Support",
+          "group": "-",
+          "skills": "Escalation Handling",
+          "grade": "Junior",
+          "maxcapacity": 10,
+          "country": "Inactive"
+        },
+        {
+          "agentId": "A006",
+          "agentname": "Daniel Park",
+          "role": "Viewer",
+          "department": "Sales",
+          "group": "-",
+          "skills": "Billing",
+          "grade": "Senior",
+          "maxcapacity": 25,
+          "country": "Active"
+        },
+        {
+          "agentId": "A007",
+          "agentname": "Rachel Stone",
+          "role": "Admin",
+          "department": "Operations",
+          "group": "-",
+          "skills": "VIP Support",
+          "grade": "Mid-level",
+          "maxcapacity": 20,
+          "country": "Active"
+        }
+      ],
+      "totalRecords": 7
+    },
+    "correlationId": ""
+  },
 
+  "Agent_listpage_getlistconfigbyid": {
+    "result": {
+      "countryCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "list": {
+          "id": "44444444-4444-4444-4444-444444444401",
+          "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
+          "entityname": "arc_roles",
+          "name": "All Agent Details",
+          "header": {
+            "name": "arc_roles"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "66666666-6666-6666-6666-666666666601",
+                "title": "All Tickets",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "Annamalai V",
+                "viewtype": "",
+                "seqno": 1
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                   "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
+                  "name": "Agent ID",
+                  "lablekey": "lbl-ticket-id",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "agentid",
+                  "visible": true,
+                  "displayapiname": "agentid",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
+                  "name": "Agent Name",
+                  "lablekey": "lbl-ticket-title",
+                  "columnwidth": 350,
+                  "seqno": 2,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "agentname",
+                  "visible": true,
+                  "displayapiname": "agentname",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "8f64d27c-712f-49d6-ae74-8ddaafac3dfd",
+                  "name": "Role",
+                  "lablekey": "lbl-customer",
+                  "columnwidth": 180,
+                  "seqno": 3,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "Role",
+                  "visible": true,
+                  "displayapiname": "role",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "9d1eff5c-ec5e-45c3-9a02-df6499b86e41",
+                  "name": "Department",
+                  "lablekey": "lbl-created-by",
+                  "columnwidth": 150,
+                  "seqno": 4,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "Department",
+                  "visible": true,
+                  "displayapiname": "department",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "79776676-a17d-448d-aeee-3a17094a6c9a",
+                  "name": "Group",
+                  "lablekey": "lbl-source",
+                  "columnwidth": 100,
+                  "seqno": 5,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "group",
+                  "visible": true,
+                  "displayapiname": "group",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                  {
+                  "id": "55555555-5555-5555-5555-555555555511",
+                  "name": "Skills",
+                  "lablekey": "lbl-priority",
+                  "columnwidth": 120,
+                  "seqno": 6,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "Skills",
+                  "visible": true,
+                  "displayapiname": "skills",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                 {
+                  "id": "63bac56b-5470-47bd-abe9-6ea45926cdc9",
+                  "name": "Max ticket capacity",
+                  "lablekey": "lbl-age",
+                  "columnwidth": 120,
+                  "seqno": 7,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "maxcapacity",
+                  "visible": true,
+                  "displayapiname": "maxcapacity",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
+                  "name": "Status",
+                  "lablekey": "lbl-status",
+                  "columnwidth": 120,
+                  "seqno": 8,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "Status",
+                  "visible": true,
+                  "displayapiname": "country",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                  {
+                  "id": "16666666-6666-6666-6666-666666666603",
+                  "name": "Agent ID",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 10,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1011",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                  {
+                  "id": "26666666-6666-6666-6666-666666666603",
+                  "name": "Agent Name",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 20,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1011",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "36666666-6666-6666-6666-666666666603",
+                  "name": "Status",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 20,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "2012",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                 {
+                  "id": "46666666-6666-6666-6666-666666666603",
+                  "name": "Role",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 30,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "2001",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                }
+              ],
+              "groupbyfields": [
+                {
+                  "id": "7d77e28a-dcf6-4b92-ad36-806753c8916a",
+                  "name": "Department",
+                  "labelkey": "lbl-customer-Department",
+                  "seqno": 4,
+                  "api_name": "Department",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                },
+                {
+                  "id": "0874b091-de6d-473a-8e54-1dcca3623fdd",
+                  "name": "Status",
+                  "labelkey": "lbl-customer-Status",
+                  "seqno": 4,
+                  "api_name": "Status",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                },
+                {
+                  "id": "89dc7f6b-9e80-4ce0-b305-6433bb1de33b",
+                  "name": "Skills",
+                  "labelkey": "lbl-customer-Skills",
+                  "seqno": 4,
+                  "api_name": "Skills",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                },
+                {
+                  "id": "89dc7f6b-9e80-4HJ0-b305-6433bb1de33b",
+                  "name": "Max Ticket Capacity",
+                  "labelkey": "lbl-customer-MaxTicketCapacity",
+                  "seqno": 4,
+                  "api_name": "maxcapacity",
+                  "type": "Horizontal",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                },
+
+
+                
+                {
+                  "id": "6e51a2b3-4c9e-4091-bea3-f0ebc6a565c0",
+                  "name": "Role",
+                  "labelkey": "lbl-customer-Role",
+                  "seqno": 5,
+                  "api_name": "Role",
+                  "type": "Vertical",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                },
+                {
+                  "id": "6195d431-fea3-4c59-8dd7-b6a57a1124a0",
+                  "name": "Department",
+                  "labelkey": "lbl-customer-Department",
+                  "seqno": 5,
+                  "api_name": "Department",
+                  "type": "Vertical",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                },
+                {
+                  "id": "6195d431-fgy3-4c59-8dd7-b6a57a1124a0",
+                  "name": "Status",
+                  "labelkey": "lbl-customer-Status",
+                  "seqno": 5,
+                  "api_name": "Status",
+                  "type": "Vertical",
+                  "direction": "-",
+                  "masterid": "2010",
+                  "displayapiname": null
+                }
+              ]
+            }
+          }
+        }
+      },
+      "correlationId": ""
+    }
+  },
+  
+  "Agent_getlookupdatabyid": {
+    "data": {
+      "statusCode": 1000,
+      "message": "List of Masters for Agents",
+      "data": [
+        {
+          "id": 2012,
+          "valuekey": "agentstatus",
+          "masterdata": [
+            { "id": 201201, "valueKey": "Active" },
+            { "id": 201202, "valueKey": "Inactive" }
+          ],
+          "isactive": true
+        },
+        {
+          "id": 2001,
+          "valuekey": "role",
+          "masterdata": [
+            { "id": 200101, "valueKey": "Manager" },
+            { "id": 200102, "valueKey": "Agent" },
+            { "id": 200103, "valueKey": "Supervisor" },
+            { "id": 200104, "valueKey": "Viewer" },
+            { "id": 200105, "valueKey": "Admin" }
+          ],
+          "isactive": true
+        },
+        {
+          "id": 2002,
+          "valuekey": "department",
+          "masterdata": [
+            { "id": 200201, "valueKey": "Development" },
+            { "id": 200202, "valueKey": "Product Owner" },
+            { "id": 200203, "valueKey": "IT" },
+            { "id": 200204, "valueKey": "QA" },
+            { "id": 200205, "valueKey": "Support" },
+            { "id": 200206, "valueKey": "Sales" },
+            { "id": 200207, "valueKey": "Operations" }
+          ],
+          "isactive": true
+        },
+        {
+          "id": 2003,
+          "valuekey": "grade",
+          "masterdata": [
+            { "id": 200301, "valueKey": "Junior" },
+            { "id": 200302, "valueKey": "Mid-level" },
+            { "id": 200303, "valueKey": "Senior" }
+          ],
+          "isactive": true
+        }
+      ],
+      "correlationId": null
+    }
+  
+},
+
+  "Agent_listpage_getdatasetfieldinfobyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "id": "66666666-6666-6666-6666-666666666601",
+        "name": "All Tickets",
+        "owner": "Annamalai V",
+        "listsortfield": "created_on",
+        "viewtype": null,
+        "celldataviewtype": null,
+        "listsortdir": "desc",
+        "isdefault": null,
+        "last_accessed_time": "2025-07-18T11:12:14",
+        "filters": [],
+        "groupby": [],
+        "columns": [
+          {
+            "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
+            "seqno": 11,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 150
+          },
+          {
+            "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
+            "seqno": 12,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 150
+          },
+          {
+            "id": "8f64d27c-712f-49d6-ae74-8ddaafac3dfd",
+            "seqno": 13,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 150
+          },
+          {
+            "id": "9d1eff5c-ec5e-45c3-9a02-df6499b86e41",
+            "seqno": 14,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 150
+          },
+          {
+            "id": "79776676-a17d-448d-aeee-3a17094a6c9a",
+            "seqno": 15,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555511",
+            "seqno": 16,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 150
+          },
+          {
+            "id": "63bac56b-5470-47bd-abe9-6ea45926cdc9",
+            "seqno": 17,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 150
+          },
+          {
+            "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
+            "seqno": 18,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-42ce-80f4-145e52f84407",
+            "seqno": 19,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-12ce-80f4-145e52f84407",
+            "seqno": 20,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 150
+          }
+        ]
+      },
+      "correlationId": ""
+    }
+  }
 }
