@@ -2013,7 +2013,7 @@
       "message": "Fetched successfully",
       "data": {
         "id": "66666666-6666-6666-6666-666666666601",
-        "name": "All Tickets",
+        "name": "All Agents",
         "owner": "Annamalai V",
         "listsortfield": "created_on",
         "viewtype": null,
