@@ -2624,597 +2624,250 @@
         "correlationId": ""
       }
     },
-     "SLA_getlookupdatabyid": {
-    "data": {
-      "statusCode": 1000,
-      "message": "List of Masters for Tenant",
-      "data": [
-        {
-          "id": 1011,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101101,
-              "valueKey": "Stage 1"
-            },
-            {
-              "id": 101102,
-              "valueKey": "Stage 2"
-            }
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        },
-        {
-          "id": 1012,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101101,
-              "valueKey": "Active"
-            },
-            {
-              "id": 101102,
-              "valueKey": "Inactive"
-            }
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        },
-        {
-          "id": 1001,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101101,
-              "valueKey": "Admin"
-            },
-            {
-              "id": 101102,
-              "valueKey": "Analyst"
-            },
-            {
-              "id": 101103,
-              "valueKey": "CEO"
-            },
-            {
-              "id": 101104,
-              "valueKey": "CMS/Ops"
-            },
-            {
-              "id": 101105,
-              "valueKey": "Desk operations"
-            },
-            {
-              "id": 101106,
-              "valueKey": "Development"
-            },
-            {
-              "id": 101107,
-              "valueKey": "DevOps"
-            },
-            {
-              "id": 101108,
-              "valueKey": "Finance & Accounts"
-            },
-            {
-              "id": 101109,
-              "valueKey": "Human Resource"
-            },
-            {
-              "id": 101110,
-              "valueKey": "Implementation"
-            },
-            {
-              "id": 101111,
-              "valueKey": "IT"
-            },
-            {
-              "id": 101112,
-              "valueKey": "Marketing"
-            },
-            {
-              "id": 101113,
-              "valueKey": "Networking"
-            },
-            {
-              "id": 101114,
-              "valueKey": "Operations"
-            },
-            {
-              "id": 101115,
-              "valueKey": "Product Analyst"
-            },
-            {
-              "id": 101116,
-              "valueKey": "Product Development"
-            }
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        },
-        {
-          "id": 1002,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101101,
-              "valueKey": "AP Adhoc"
-            },
-            {
-              "id": 101102,
-              "valueKey": "Bugs"
-            },
-            {
-              "id": 101103,
-              "valueKey": "Communication"
-            },
-            {
-              "id": 101104,
-              "valueKey": "Content"
-            },
-            {
-              "id": 101105,
-              "valueKey": "Customer Pilot"
-            },
-            {
-              "id": 101106,
-              "valueKey": "Data Request"
-            },
-            {
-              "id": 101107,
-              "valueKey": "Employee Query"
-            },
-            {
-              "id": 101108,
-              "valueKey": "Feature Request"
-            },
-            {
-              "id": 101109,
-              "valueKey": "Hardware Request"
-            },
-            {
-              "id": 101110,
-              "valueKey": "Invoices"
-            },
-            {
-              "id": 101111,
-              "valueKey": "Maintenance"
-            },
-            {
-              "id": 101112,
-              "valueKey": "New Campaign"
-            },
-            {
-              "id": 101113,
-              "valueKey": "New Hire Request"
-            },
-            {
-              "id": 101114,
-              "valueKey": "Off Boarding"
-            },
-            {
-              "id": 101115,
-              "valueKey": "Permission"
-            },
-            {
-              "id": 101116,
-              "valueKey": "Procurement"
-            }
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        },
-        {
-          "id": 1003,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101101,
-              "valueKey": "Approval"
-            },
-            {
-              "id": 101102,
-              "valueKey": "Backlog"
-            },
-            {
-              "id": 101103,
-              "valueKey": "Clarification"
-            },
-            {
-              "id": 101104,
-              "valueKey": "Configuration"
-            },
-            {
-              "id": 101105,
-              "valueKey": "Device"
-            },
-            {
-              "id": 101106,
-              "valueKey": "Execution"
-            },
-            {
-              "id": 101107,
-              "valueKey": "FeatureRequest"
-            },
-            {
-              "id": 101108,
-              "valueKey": "Functional"
-            },
-            {
-              "id": 101109,
-              "valueKey": "Information"
-            },
-            {
-              "id": 101110,
-              "valueKey": "Leave Request"
-            },
-            {
-              "id": 101111,
-              "valueKey": "Observation"
-            },
-            {
-              "id": 101112,
-              "valueKey": "Permission Request"
-            },
-            {
-              "id": 101113,
-              "valueKey": "Query"
-            },
-            {
-              "id": 101114,
-              "valueKey": "Requirment"
-            },
-            {
-              "id": 101115,
-              "valueKey": "Permission"
-            },
-            {
-              "id": 101116,
-              "valueKey": "Training"
-            }
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        },
-        {
-          "id": 1004,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101101,
-              "valueKey": "Critical"
-            },
-            {
-              "id": 101102,
-              "valueKey": "High"
-            },
-            {
-              "id": 101103,
-              "valueKey": "Low"
-            },
-            {
-              "id": 101104,
-              "valueKey": "Medium"
-            }
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        },
-        {
-          "id": 1005,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101101,
-              "valueKey": "Anthony Ellis"
-            },
-            {
-              "id": 101102,
-              "valueKey": "Anna Malai"
-            },
-            {
-              "id": 101103,
-              "valueKey": "DRS"
-            },
-            {
-              "id": 101104,
-              "valueKey": "Ravi"
-            },
-            {
-              "id": 101105,
-              "valueKey": "Bhoopathy"
-            },
-            {
-              "id": 101106,
-              "valueKey": "Execution"
-            }
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        },
-        {
-          "id": 1070,
-          "valuekey": "userstatus",
-          "labels": {},
-          "jsonmetadata": null,
-          "masterdata": [
-            {
-              "id": 101101,
-              "valueKey": "Open"
-            },
-            {
-              "id": 101102,
-              "valueKey": "New"
-            },
-            {
-              "id": 101103,
-              "valueKey": "In Progress"
-            },
-            {
-              "id": 101104,
-              "valueKey": "Closed"
-            },
-            {
-              "id": 101105,
-              "valueKey": "Hold"
-            },
-            {
-              "id": 101106,
-              "valueKey": "Reopen"
-            }
-          ],
-          "isactive": true,
-          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-        }
-      ],
-      "correlationId": null
-    }
+"Agentshift_listdata": {
+  "statusCode": 1000,
+  "message": "Fetched successfully",
+  "data": {
+    "datas": [
+      {
+        "sno":"1",
+        "shiftname": "Morning Core Team",
+        "createdby": "John Abraham",
+        "createdon": "2025-08-20",
+        "type": "Morning",
+        "timezone":"PT"
+        
+      },
+      {
+        "sno":"2",
+        "shiftname": "Evening Core Team",
+        "type": "Evening",
+        "createdby": "Sara Connor",
+        "createdon": "2025-08-21",
+        "timezone":"ET"
+      },
+      {
+        "sno":"3",
+        "shiftname": "Night Shift Crew",
+        "type": "Night",
+        "createdby": "Michael Smith",
+        "createdon": "2025-08-22",
+        "timezone":"CT"
+       
+      },
+      {
+        "sno":"4",
+        "shiftname": "Weekend Team",
+        "type": "Night",
+        "createdby": "Lisa Wong",
+        "createdon": "2025-08-23",
+         "timezone":"MT"
+      },
+      {
+        "sno":"5",
+        "shiftname": "Technical Support",
+        "type": "Morning",
+        "createdby": "David Johnson",
+        "createdon": "2025-08-24",
+         "timezone":"GMT"
+      }
+    ],
+    "totalRecords": 5
   },
-
-  "SLA_getlistconfigbyid": {
-    "result": {
-      "statusCode": 1000,
-      "message": "Fetched successfully",
-      "data": {
-        "list": {
-          "id": "44444444-4444-4444-4444-444444444401",
-          "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
-          "entityname": "arc_roles",
-          "name": "All Lead details",
-          "header": {
-            "name": "arc_roles"
-          },
-          "type": "List",
-          "data": {
-            "dataset": [
-              {
-                "datasetid": "66666666-6666-6666-6666-666666666601",
-                "title": "All Tickets",
-                "isdefault": true,
-                "isselected": true,
-                "owner": "Annamalai V",
-                "viewtype": "",
-                "seqno": 1
-              }
-            ],
-            "config": {
-              "listfields": [
-
-                 {
-                  "id": "01",
-                  "name": "SLA Name",
-                  "lablekey": "lbl-users-Phone",
-                  "columnwidth": 150,
-                  "seqno": 1,
-                  "masterid": "",
-                  "controltype": null,
-                  "attrtype": "nvarchar",
-                  "api_name": "slaname",
-                  "visible": true,
-                  "displayapiname": "slaname",
-                  "inlineeditable": null,
-                  "istitle": true,
-                  "isdate": false,
-                  "islookup": false
-                },
-               {
-                  "id": "02",
-                  "name": "Department",
-                  "lablekey": "lbl-users-timezone",
-                  "columnwidth": 150,
-                  "seqno": 2,
-                  "masterid": "1009",
-                  "controltype": null,
-                  "attrtype": "nvarchar",
-                  "api_name": "department",
-                  "visible": true,
-                  "displayapiname": "department",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
+  "correlationId": ""
+},
+"Agentshift_getlookupdatabyid": {
+  "data": {
+    "statusCode": 1000,
+    "message": "List of Masters for Tenant",
+    "data": [
+      {
+        "id": 2001,
+        "valuekey": "shift_type",
+        "labels": {},
+        "jsonmetadata": null,
+        "masterdata": [
+          { "id": 1, "valueKey": "Morning" },
+          { "id": 2, "valueKey": "Evening" },
+          { "id": 3, "valueKey": "Night" }
+        ],
+        "isactive": true,
+        "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+      },
+      {
+        "id": 2002,
+        "valuekey": "time_zone",
+        "labels": {},
+        "jsonmetadata": null,
+        "masterdata": [
+          { "id": 1, "valueKey": "PT" },
+          { "id": 2, "valueKey": "ET" },
+          { "id": 3, "valueKey": "CT" },
+          { "id": 4, "valueKey": "MT" },
+          { "id": 5, "valueKey": "GMT" }
+        ],
+        "isactive": true,
+        "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+      }
+    ]
+  }
+},
+  "Agentshift_getlistconfigbyid": {
+      "result": {
+        "statusCode": 1000,
+        "message": "Fetched successfully",
+        "data": {
+          "list": {
+            "id": "44444444-4444-4444-4444-444444444401",
+            "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
+            "entityname": "arc_roles",
+            "name": "All Lead details",
+            "header": {
+              "name": "arc_roles"
+            },
+            "type": "List",
+            "data": {
+              "dataset": [
                 {
-                  "id": "05",
-                  "name": "Escalation",
-                  "lablekey": "lbl-users-language",
-                  "columnwidth": 150,
-                  "seqno": 5,
-                  "masterid": "",
-                  "controltype": null,
-                  "attrtype": "nvarchar",
-                  "api_name": "escalation",
-                  "visible": true,
-                  "displayapiname": "escalation",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
-                  "id": "03",
-                  "name": "Priority",
-                  "lablekey": "lbl-users-country",
-                  "columnwidth": 150,
-                  "seqno": 3,
-                  "masterid": "1008",
-                  "controltype": "textbox",
-                  "attrtype": "nvarchar",
-                  "api_name": "priority",
-                  "visible": true,
-                  "displayapiname": "priority",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                {
-                  "id": "04",
-                  "name": "Reminder",
-                  "lablekey": "lbl-users-country",
-                  "columnwidth": 150,
-                  "seqno": 4,
-                  "masterid": "1008",
-                  "controltype": "textbox",
-                  "attrtype": "nvarchar",
-                  "api_name": "reminder",
-                  "visible": true,
-                  "displayapiname": "reminder",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                { "id": "07",
-                  "name": "Created On",
-                  "lablekey": "lbl-users-language",
-                  "columnwidth": 150,
-                  "seqno": 7,
-                  "masterid": "",
-                  "controltype": null,
-                  "attrtype": "nvarchar",
-                  "api_name": "createdon",
-                  "visible": true,
-                  "displayapiname": "createdon",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                
+                  "datasetid": "66666666-6666-6666-6666-666666666601",
+                  "title": "All Tickets",
+                  "isdefault": true,
+                  "isselected": true,
+                  "owner": "Annamalai V",
+                  "viewtype": "",
+                  "seqno": 1
+                }
+              ],
+              "config": {
+                "listfields": [
+  {
+    "id": "01",
+    "name": "S.no",
+    "lablekey": "lbl-users-Phone",
+    "columnwidth": 100,
+    "seqno": 1,
+    "masterid": "",
+    "api_name": "sno",
+    "visible": true,
+    "displayapiname": "sno",
+    "istitle": false
+  },
+  {
+    "id": "02",
+    "name": "Shift Name",
+    "lablekey": "lbl-users-timezone",
+    "columnwidth": 150,
+    "seqno": 2,
+    "masterid": "",
+    "api_name": "shiftname",
+    "visible": true,
+    "displayapiname": "shiftname",
+    "istitle": true
+  },
+  {
+    "id": "03",
+    "name": "Created By",
+    "lablekey": "lbl-users-language",
+    "columnwidth": 200,
+    "seqno": 3,
+    "masterid": "",
+    "api_name": "createdby",
+    "visible": true,
+    "displayapiname": "createdby"
+  },
+  {
+    "id": "04",
+    "name": "Created On",
+    "lablekey": "lbl-users-language",
+    "columnwidth": 160,
+    "seqno": 4,
+    "masterid": "",
+    "api_name": "createdon",
+    "visible": true,
+    "displayapiname": "createdon"
+  },
+  {
+    "id": "05",
+    "name": "Type",
+    "lablekey": "lbl-users-language",
+    "columnwidth": 160,
+    "seqno": 5,
+    "masterid": "2001",
+    "api_name": "type",
+    "visible": true,
+    "displayapiname": "type"
+  },
+  {
+    "id": "06",
+    "name": "Time Zone",
+    "lablekey": "lbl-users-language",
+    "columnwidth": 160,
+    "seqno": 6,
+    "masterid": "2002",
+    "api_name": "timezone",
+    "visible": true,
+    "displayapiname": "timezone"
+  }
+],
+ "filterfields": [
                   {
-                  "id": "06",
-                  "name": "Created By",
-                  "lablekey": "lbl-users-language",
-                  "columnwidth": 150,
-                  "seqno": 6,
-                  "masterid": "",
-                  "controltype": null,
-                  "attrtype": "nvarchar",
-                  "api_name": "createdby",
-                  "visible": true,
-                  "displayapiname": "createdby",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                       {
-                  "id": "08",
-                  "name": "Status",
-                  "lablekey": "lbl-users-language",
-                  "columnwidth": 150,
-                  "seqno": 8,
-                  "masterid": "",
-                  "controltype": null,
-                  "attrtype": "nvarchar",
-                  "api_name": "language",
-                  "visible": true,
-                  "displayapiname": "language",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                },
-                 {
-                  "id": "09",
-                  "name": "Is Active",
-                  "lablekey": "lbl-users-country",
-                  "columnwidth": 150,
-                  "seqno": 9,
-                  "masterid": "1008",
-                  "controltype": "textbox",
-                  "attrtype": "nvarchar",
-                  "api_name": "status",
-                  "visible": true,
-                  "displayapiname": "status",
-                  "inlineeditable": null,
-                  "istitle": false,
-                  "isdate": false,
-                  "islookup": false
-                }
-              ],
-              "filterfields": [
-                {
-                  "id": "16666666-6666-6666-6666-666666666603",
-                  "name": "Status",
-                  "lablekey": "lbl-user-status",
-                  "seqno": 30,
-                  "filtercontroltype": "dropdown",
-                  "isquickfilter": true,
-                  "api_name": "is_active",
-                  "islookup": false,
-                  "masterid": "1070",
-                  "apioutputskey": null,
-                  "isvisible": false,
-                  "apioutputvalue": null
-                },
-                {
-                  "id": "96666666-6666-6666-6666-666666666603",
-                  "name": "Created On",
-                  "lablekey": "lbl-user-status",
-                  "seqno": 25,
-                  "filtercontroltype": "datepicker",
-                  "isquickfilter": true,
-                  "api_name": "is_active",
-                  "islookup": false,
-                  "masterid": "",
-                  "apioutputskey": null,
-                  "isvisible": false,
-                  "apioutputvalue": null
-                }
-              ],
-              "groupbyfields": []
+                    "id": "66666666-6666-6666-6666-666666666603",
+                    "name": "Shift Name",
+                    "lablekey": "lbl-user-status",
+                    "seqno": 20,
+                    "filtercontroltype": "textbox",
+                    "isquickfilter": true,
+                    "api_name": "is_active",
+                    "islookup": false,
+                    "masterid": "1011",
+                    "apioutputskey": null,
+                    "isvisible": false,
+                    "apioutputvalue": null
+                  },
+                  {
+                    "id": "96666666-6666-6666-6666-666666666603",
+                    "name": "Type",
+                    "lablekey": "lbl-user-status",
+                    "seqno": 25,
+                    "filtercontroltype": "dropdown",
+                    "isquickfilter": true,
+                    "api_name": "is_active",
+                    "islookup": false,
+                    "masterid": "2001",
+                    "apioutputskey": null,
+                    "isvisible": false,
+                    "apioutputvalue": null
+                  },
+                  {
+                    "id": "16666666-6666-6666-6666-666666666603",
+                    "name": "Created On",
+                    "lablekey": "lbl-user-status",
+                    "seqno": 30,
+                    "filtercontroltype": "datepicker",
+                    "isquickfilter": true,
+                    "api_name": "is_active",
+                    "islookup": false,
+                    "masterid": "",
+                    "apioutputskey": null,
+                    "isvisible": false,
+                    "apioutputvalue": null
+                  }
+                ],
+                "groupbyfields": []
+              }
             }
           }
-        }
-      },
-      "correlationId": ""
-    }
-  },
-
-  "SLA_getdatasetfieldinfobyid": {
+        },
+        "correlationId": ""
+      }
+    },
+  "Agentshift_getdatasetfieldinfobyid": {
     "result": {
       "statusCode": 1000,
       "message": "Fetched successfully",
       "data": {
         "id": "66666666-6666-6666-6666-666666666601",
-        "name": "All Tickets",
+        "name": "All Agents",
         "owner": "Annamalai V",
         "listsortfield": "created_on",
         "viewtype": null,
@@ -3224,253 +2877,67 @@
         "last_accessed_time": "2025-07-18T11:12:14",
         "filters": [],
         "groupby": [],
-        "groupby": [],
         "columns": [
           {
-            "id": "01",
-            "seqno": 1,
-            "masterid": "0",
+           "id": "01",
+              "seqno": 1,
+               "masterid": "0",
             "controltype": null,
             "attrtype": "nvarchar",
-            "api_name": "slaname",
+            "api_name": "",
             "columnwidth": 150
           },
           {
-            "id": "02",
-            "seqno": 2,
-            "masterid": "0",
+           "id": "02",
+    "seqno": 2,
+    "masterid": "0",
             "controltype": null,
             "attrtype": "nvarchar",
-            "api_name": "department",
+            "api_name": "",
             "columnwidth": 150
           },
           {
-            "id": "03",
-            "seqno": 3,
-            "masterid": "0",
+         "id": "03",
+    "seqno": 3,
+    "masterid": "0",
             "controltype": null,
             "attrtype": "nvarchar",
-            "api_name": "priority",
-            "columnwidth": 150
+            "api_name": "",
+            "columnwidth": 200
           },
           {
             "id": "04",
-            "seqno": 4,
-            "masterid": "0",
+    "seqno": 4,
+    "masterid": "0",
             "controltype": null,
             "attrtype": "nvarchar",
-            "api_name": "reminder",
-            "columnwidth": 150
+            "api_name": "",
+            "columnwidth": 190
           },
           {
             "id": "05",
-            "seqno": 5,
-            "masterid": "0",
+    "seqno": 5,
+    "masterid": "",
             "controltype": null,
             "attrtype": "nvarchar",
-            "api_name": "escalation",
-            "columnwidth": 150
+            "api_name": "",
+            "columnwidth": 190
           },
           {
-            "id": "06",
-            "seqno": 6,
-            "masterid": "0",
+          "id": "06",
+    "seqno": 6,
+    "masterid": "2002",
             "controltype": null,
             "attrtype": "nvarchar",
-            "api_name": "createdby",
-            "columnwidth": 150
-          },
-          {
-            "id": "07",
-            "seqno": 7,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "createdon",
-            "columnwidth": 150
-          },
-          {
-            "id": "55555555-5555-5555-5555-555555555506",
-            "seqno": 60,
-            "masterid": "1011",
-            "controltype": null,
-            "attrtype": "bit",
-            "api_name": "is_active",
-            "columnwidth": 150
-          },
-          {
-            "id": "08",
-            "seqno": 9,
-            "masterid": "1009",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "status",
-            "columnwidth": 150
-          },
-          {
-            "id": "09",
-            "seqno": 9,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "is_active",
-            "columnwidth": 150
-          },
-          {
-            "id": "63bac56b-5470-47bd-abe9-6ea45926cdc9",
-            "seqno": 50,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "employee_id",
-            "columnwidth": 150
-          },
-          {
-            "id": "21956e74-d8cd-13ce-80f4-145e52f84407",
-            "seqno": 50,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "employee_id",
-            "columnwidth": 150
-          },
-          {
-            "id": "21956e74-d8cd-12ce-80f4-145e52f84407",
-            "seqno": 50,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "employee_id",
-            "columnwidth": 150
-          },
-          {
-            "id": "21956e74-d8cd-42ce-80f4-145e52f84407",
-            "seqno": 50,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "employee_id",
-            "columnwidth": 150
-          },
-          {
-            "id": "21956e74-d8cd-14ce-80f4-145e52f84407",
-            "seqno": 50,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "primary_number",
-            "columnwidth": 150
-          },
-          {
-            "id": "8f64d27c-712f-49d6-ae74-8ddaafac3dfd",
-            "seqno": 50,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "language",
-            "columnwidth": 150
-          },
-          {
-            "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
-            "seqno": 50,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "mobile",
-            "columnwidth": 150
-          },
-          {
-            "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
-            "seqno": 50,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "mobile",
-            "columnwidth": 150
-          },
-          {
-            "id": "7b0bb530-0d49-4c6a-b960-fc02d233c2b4",
-            "seqno": 60,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "mobile",
-            "columnwidth": 150
-          },
-          {
-            "id": "55555555-5555-5555-5555-555555555511",
-            "seqno": 50,
-            "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "lead_owner",
-            "columnwidth": 150
+            "api_name": "",
+            "columnwidth": 200
           }
+         
         ]
       },
       "correlationId": ""
     }
-  },
-  "SLA_listdata": {
-    "statusCode": 1000,
-    "message": "Fetched successfully",
-    "data": {
-      "datas": [
-        {
-          "slaname": "Default Policy",
-          "department":"All",
-          "priority":"All",
-          "reminder":"None",
-          "escalation":"None",
-          "createdby":"John Abraham",
-          "createdon": "2025-06-20",
-          "language":"Created",
-          "isactive": false
-          
-        },
-        {
-         
-          "slaname": "Standard Service Request Fullfillment",
-          "department":"IT Operations",
-          "priority":"High",
-          "reminder":"2",
-          "escalation":"1",
-          "createdby":"Michael Wang",
-          "createdon": "2025-06-20",
-          "language":"Draft",
-          "isactive": false
-          
-        },
-         {
-         
-          "slaname": "Customer Support Response SLA",
-          "department":"Customer Support",
-          "priority":"Low",
-          "reminder":"3",
-          "escalation":"2",
-          "createdby":"Sara Marie",
-          "createdon": "2025-06-20",
-          "language":"Created",
-          "isactive": false
-          
-        },
-         {
-         
-          "slaname": "Network Connectivity Issue Resolution",
-          "department":"Network Operations",
-          "priority":"Medium",
-          "reminder":"2",
-          "escalation":"None",
-          "createdby":"Robin Joe",
-          "createdon": "2025-06-20",
-          "language":"Created",
-          "isactive": false
-          
-        }
-      ],
-      "totalRecords": 15
-    },
-    "correlationId": ""
-  }
+  } 
+
 
 }
