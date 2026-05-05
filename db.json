@@ -16,8 +16,7 @@
           "age": "8h 18m",
           "slaremaining": "5h 41m",
           "createdat": "Mar 23, 05:59 AM",
-          "isdraft":true
-          
+          "isdraft": true
         },
         {
           "id": 2,
@@ -31,8 +30,7 @@
           "age": "10h 18m",
           "slaremaining": "8h 41m",
           "createdat": "Mar 23, 03:59 AM",
-          "isdraft":true
-        
+          "isdraft": true
         },
         {
           "id": 3,
@@ -46,8 +44,7 @@
           "age": "19h 18m",
           "slaremaining": "3h 41m",
           "createdat": "Mar 22, 06:59 PM",
-            "isdraft":false
-         
+          "isdraft": false
         },
         {
           "id": 4,
@@ -61,8 +58,7 @@
           "age": "19h 18m",
           "slaremaining": "BREACHED",
           "createdat": "Mar 22, 06:59 PM",
-           "isdraft":false
-          
+          "isdraft": false
         },
         {
           "id": 5,
@@ -76,16 +72,14 @@
           "age": "23h 18m",
           "slaremaining": "BREACHED",
           "createdat": "Mar 22, 02:59 PM",
-           "isdraft":false
-         
+          "isdraft": false
         }
-        
       ],
       "totalRecords": 5
     },
     "correlationId": ""
   },
-"Ticket_getlookupdatabyid": {
+  "Ticket_getlookupdatabyid": {
     "data": {
       "statusCode": 1000,
       "message": "List of Masters for Tenant",
@@ -446,7 +440,7 @@
       "correlationId": null
     }
   },
-"Ticket_listpage_getlistconfigbyid": {
+  "Ticket_listpage_getlistconfigbyid": {
     "result": {
       "statusCode": 1000,
       "message": "Fetched successfully",
@@ -661,7 +655,6 @@
                   "isdate": false,
                   "islookup": false
                 }
-              
               ],
               "filterfields": [
                 {
@@ -755,9 +748,6 @@
                   "masterid": "2010",
                   "displayapiname": null
                 },
-
-
-                
                 {
                   "id": "6e51a2b3-4c9e-4091-bea3-f0ebc6a565c0",
                   "name": "Priority",
@@ -900,656 +890,623 @@
       "correlationId": ""
     }
   },
- "Allocation_getlistconfigbyid": {
-      "result": {
-        "statusCode": 1000,
-        "message": "Fetched successfully",
-        "data": {
-          "list": {
-            "id": "44444444-4444-4444-4444-444444444401",
-            "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
-            "entityname": "arc_roles",
-            "name": "All Lead details",
-            "header": {
-              "name": "arc_roles"
-            },
-            "type": "List",
-            "data": {
-              "dataset": [
-                {
-                  "datasetid": "66666666-6666-6666-6666-666666666601",
-                  "title": "All Tickets",
-                  "isdefault": true,
-                  "isselected": true,
-                  "owner": "Annamalai V",
-                  "viewtype": "",
-                  "seqno": 1
-                }
-              ],
-              "config": {
-                "listfields": [
-                  {
-                    "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
-                    "name": "Ticket ID",
-                    "lablekey": "lbl-users-timezone",
-                    "columnwidth": 150,
-                    "seqno": 1,
-                    "masterid": "1009",
-                    "controltype": null,
-                    "attrtype": "nvarchar",
-                    "api_name": "time_zone",
-                    "visible": true,
-                    "displayapiname": "ticketname",
-                    "inlineeditable": null,
-                    "istitle": true,
-                    "isdate": false,
-                    "islookup": false
-                  },
-                  {
-                    "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
-                    "name": "Age",
-                    "lablekey": "lbl-users-country",
-                    "columnwidth": 150,
-                    "seqno": 2,
-                    "masterid": "1008",
-                    "controltype": "textbox",
-                    "attrtype": "nvarchar",
-                    "api_name": "country",
-                    "visible": true,
-                    "displayapiname": "country",
-                    "inlineeditable": null,
-                    "istitle": false,
-                    "isdate": false,
-                    "islookup": false
-                  },
-  
-                  {
-                    "id": "79776676-a17d-448d-aeee-3a17094a6c9a",
-                    "name": "Category",
-                    "lablekey": "lbl-users-jobtitle",
-                    "columnwidth": 150,
-                    "seqno": 5,
-                    "masterid": "",
-                    "controltype": null,
-                    "attrtype": "nvarchar",
-                    "api_name": "Category",
-                    "visible": true,
-                    "displayapiname": "Category",
-                    "inlineeditable": null,
-                    "istitle": false,
-                    "isdate": false,
-                    "islookup": false
-                  },
-  
-                  {
-                    "id": "21956e74-d8cd-12ce-80f4-145e52f84407",
-                    "name": "Priority",
-                    "lablekey": "lbl-users-Phone",
-                    "columnwidth": 150,
-                    "seqno": 19,
-                    "masterid": "",
-                    "controltype": null,
-                    "attrtype": "nvarchar",
-                    "api_name": "Priority",
-                    "visible": true,
-                    "displayapiname": "Priority",
-                    "inlineeditable": null,
-                    "istitle": false,
-                    "isdate": false,
-                    "islookup": false
-                  },
-  
-                  {
-                    "id": "cb196a8f-b628-413f-8414-fa9d731cca72",
-                    "name": "Ticket Title",
-                    "lablekey": "lbl-users-timezone",
-                    "columnwidth": 150,
-                    "seqno": 1,
-                    "masterid": "1010",
-                    "controltype": null,
-                    "attrtype": "nvarchar",
-                    "api_name": "ticket_title",
-                    "visible": true,
-                    "displayapiname": "ticket_title",
-                    "inlineeditable": null,
-                    "istitle": false,
-                    "isdate": false,
-                    "islookup": false
-                  },
-  
-                  {
-                    "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
-                    "name": "SLA(hrs)",
-                    "lablekey": "lbl-users-Mobile",
-                    "columnwidth": 150,
-                    "seqno": 8,
-                    "masterid": "",
-                    "controltype": "textbox",
-                    "attrtype": "nvarchar",
-                    "api_name": "mobile",
-                    "visible": true,
-                    "displayapiname": "mobile",
-                    "inlineeditable": null,
-                    "istitle": false,
-                    "isdate": false,
-                    "islookup": false
-                  }
-                ],
-                "filterfields": [
-                  {
-                    "id": "66666666-6666-6666-6666-666666666603",
-                    "name": "Ticket ID",
-                    "lablekey": "lbl-user-status",
-                    "seqno": 20,
-                    "filtercontroltype": "textbox",
-                    "isquickfilter": true,
-                    "api_name": "is_active",
-                    "islookup": false,
-                    "masterid": "1011",
-                    "apioutputskey": null,
-                    "isvisible": false,
-                    "apioutputvalue": null
-                  },
-                  {
-                    "id": "96666666-6666-6666-6666-666666666603",
-                    "name": "Priority",
-                    "lablekey": "lbl-user-status",
-                    "seqno": 25,
-                    "filtercontroltype": "dropdown",
-                    "isquickfilter": true,
-                    "api_name": "is_active",
-                    "islookup": false,
-                    "masterid": "1011",
-                    "apioutputskey": null,
-                    "isvisible": false,
-                    "apioutputvalue": null
-                  },
-                  {
-                    "id": "16666666-6666-6666-6666-666666666603",
-                    "name": "Category",
-                    "lablekey": "lbl-user-status",
-                    "seqno": 30,
-                    "filtercontroltype": "dropdown",
-                    "isquickfilter": true,
-                    "api_name": "is_active",
-                    "islookup": false,
-                    "masterid": "1070",
-                    "apioutputskey": null,
-                    "isvisible": false,
-                    "apioutputvalue": null
-                  }
-                ],
-                "groupbyfields": []
-              }
-            }
-          }
-        },
-        "correlationId": ""
-      }
-    },
-  
-    "Allocation_listdata": {
+  "Allocation_getlistconfigbyid": {
+    "result": {
       "statusCode": 1000,
       "message": "Fetched successfully",
       "data": {
-        "datas": [
-          {
-            "id": 2,
-            "ticketname": "TCK-1001",
-            "Category": "Communication",
-  
-            "ticket_title": "Email Not Syncing",
-  
-            "Priority": "High",
-            "country": "50m",
-            "mobile": "2h"
+        "list": {
+          "id": "44444444-4444-4444-4444-444444444401",
+          "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
+          "entityname": "arc_roles",
+          "name": "All Lead details",
+          "header": {
+            "name": "arc_roles"
           },
-          {
-            "id": 3,
-            "ticketname": "TCK-1002",
-            "Category": "Data Request",
-            "ticket_title": "Request for new dataset",
-  
-            "priority": "Medium",
-            "country": "50m",
-            "mobile": "2h"
-          },
-          {
-            "id": 4,
-            "ticketname": "TCK-1003",
-            "Category": "Feature Request",
-  
-            "ticket_title": "Future enhancement in CRM",
-  
-            "priority": "Critical",
-            "country": "50m",
-            "mobile": "2h"
-          },
-          {
-            "id": 5,
-            "ticketname": "TCK-1004",
-            "Category": "Invoice",
-  
-            "ticket_title": "Invoice correction",
-  
-            "priority": "Medium",
-            "country": "50m",
-            "mobile": "2h"
-          },
-          {
-            "id": 6,
-            "ticketname": "TCK-1005",
-            "Category": "Software Access",
-  
-            "ticket_title": "Access to HR software",
-  
-            "priority": "Low",
-            "country": "50m",
-            "mobile": "2h"
-          },
-          {
-            "id": 7,
-            "ticketname": "TCK-1006",
-            "Category": "Product Discount",
-  
-            "ticket_title": "Product discount approval",
-  
-            "priority": "High",
-            "country": "50m",
-            "mobile": "2h"
-          },
-          {
-            "id": 8,
-            "ticketname": "TCK-1007",
-            "Category": "Communication",
-  
-            "ticket_title": "Sever downtime issue",
-  
-            "priority": "Critical",
-            "country": "50m",
-            "mobile": "2h"
-          },
-          {
-            "id": 9,
-            "ticketname": "TCK-1008",
-            "Category": "Invoice",
-  
-            "ticket_title": "Clarification on tax invoice",
-  
-            "priority": "Medium",
-            "country": "50m",
-            "mobile": "2h"
-          },
-          {
-            "id": 10,
-            "ticketname": "TCK-1009",
-            "Category": "Permission",
-  
-            "ticket_title": "Request for AWS credentials",
-  
-            "priority": "High",
-            "country": "50m",
-            "mobile": "2h"
-          },
-          {
-            "id": 11,
-            "ticketname": "TCK-1010",
-            "Category": "Data Request",
-  
-            "ticket_title": "Requirement doc submission",
-  
-            "priority": "Low",
-            "country": "50m",
-            "mobile": "2h"
-          },
-          {
-            "id": 12,
-            "ticketname": "TCK-1011",
-            "Category": "Software Access",
-  
-            "ticket_title": "Laptop access permission",
-  
-            "priority": "Medium",
-            "country": "50m",
-            "mobile": "2h"
-          },
-          {
-            "id": 13,
-            "ticketname": "TCK-1012",
-            "Category": "Product Discount",
-  
-            "ticket_title": "Disconut request from client",
-  
-            "priority": "High",
-            "country": "50m",
-            "mobile": "2h"
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "66666666-6666-6666-6666-666666666601",
+                "title": "All Tickets",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "Annamalai V",
+                "viewtype": "",
+                "seqno": 1
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
+                  "name": "Ticket ID",
+                  "lablekey": "lbl-users-timezone",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "1009",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "time_zone",
+                  "visible": true,
+                  "displayapiname": "ticketname",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
+                  "name": "Age",
+                  "lablekey": "lbl-users-country",
+                  "columnwidth": 150,
+                  "seqno": 2,
+                  "masterid": "1008",
+                  "controltype": "textbox",
+                  "attrtype": "nvarchar",
+                  "api_name": "country",
+                  "visible": true,
+                  "displayapiname": "country",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "79776676-a17d-448d-aeee-3a17094a6c9a",
+                  "name": "Category",
+                  "lablekey": "lbl-users-jobtitle",
+                  "columnwidth": 150,
+                  "seqno": 5,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "Category",
+                  "visible": true,
+                  "displayapiname": "Category",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "21956e74-d8cd-12ce-80f4-145e52f84407",
+                  "name": "Priority",
+                  "lablekey": "lbl-users-Phone",
+                  "columnwidth": 150,
+                  "seqno": 19,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "Priority",
+                  "visible": true,
+                  "displayapiname": "Priority",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "cb196a8f-b628-413f-8414-fa9d731cca72",
+                  "name": "Ticket Title",
+                  "lablekey": "lbl-users-timezone",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "1010",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "ticket_title",
+                  "visible": true,
+                  "displayapiname": "ticket_title",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
+                  "name": "SLA(hrs)",
+                  "lablekey": "lbl-users-Mobile",
+                  "columnwidth": 150,
+                  "seqno": 8,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "nvarchar",
+                  "api_name": "mobile",
+                  "visible": true,
+                  "displayapiname": "mobile",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "66666666-6666-6666-6666-666666666603",
+                  "name": "Ticket ID",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 20,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1011",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "96666666-6666-6666-6666-666666666603",
+                  "name": "Priority",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 25,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1011",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "16666666-6666-6666-6666-666666666603",
+                  "name": "Category",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 30,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1070",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                }
+              ],
+              "groupbyfields": []
+            }
           }
-        ],
-        "totalRecords": 15
+        }
       },
       "correlationId": ""
-    },
-  
-    "Allocation_getlookupdatabyid": {
-      "data": {
-        "statusCode": 1000,
-        "message": "List of Masters for Tenant",
-        "data": [
-          {
-            "id": 1011,
-            "valuekey": "userstatus",
-            "labels": {},
-            "jsonmetadata": null,
-            "masterdata": [
-              {
-                "id": 101101,
-                "valueKey": "High"
-              },
-              {
-                "id": 101102,
-                "valueKey": "Low"
-              },
-              {
-                "id": 101101,
-                "valueKey": "Medium"
-              }
-            ],
-            "isactive": true,
-            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-          },
-          {
-            "id": 1070,
-            "valuekey": "userstatus",
-            "labels": {},
-            "jsonmetadata": null,
-            "masterdata": [
-              {
-                "id": 101101,
-                "valueKey": "Communication"
-              },
-              {
-                "id": 101102,
-                "valueKey": "Data Request"
-              },
-              {
-                "id": 101103,
-                "valueKey": "Feature Request"
-              },
-              {
-                "id": 101104,
-                "valueKey": "Invoices"
-              },
-              {
-                "id": 101105,
-                "valueKey": "Product Discount"
-              },
-              {
-                "id": 101106,
-                "valueKey": "Software Access"
-              }
-            ],
-            "isactive": true,
-            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-          },
-          {
-            "id": 1071,
-            "valuekey": "userstatus",
-            "labels": {},
-            "jsonmetadata": null,
-            "masterdata": [
-              {
-                "id": 101101,
-                "valueKey": "Free within 2 hours"
-              },
-              {
-                "id": 101102,
-                "valueKey": "Free within 4 hours"
-              },
-              {
-                "id": 101103,
-                "valueKey": "Free within 6 hours"
-              },
-              {
-                "id": 101104,
-                "valueKey": "Free within 8 hours"
-              }
-            ],
-            "isactive": true,
-            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-          },
-           {
-            "id": 1072,
-            "valuekey": "userstatus",
-            "labels": {},
-            "jsonmetadata": null,
-            "masterdata": [
-              {
-                "id": 101101,
-                "valueKey": "Database Optimization"
-              },
-              {
-                "id": 101102,
-                "valueKey": "Development"
-              }
-
-            ],
-            "isactive": true,
-            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-          },
-           {
-            "id": 1073,
-            "valuekey": "userstatus",
-            "labels": {},
-            "jsonmetadata": null,
-            "masterdata": [
-              {
-                "id": 101101,
-                "valueKey": "Support Agent"
-              }
-
-
-            ],
-            "isactive": true,
-            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-          }
-        ],
-        "correlationId": null
-      }
-    },
-    "Allocation_getdatasetfieldinfobyid": {
-      "result": {
-        "statusCode": 1000,
-        "message": "Fetched successfully",
-        "data": {
-          "id": "66666666-6666-6666-6666-666666666601",
-          "name": "All Tickets",
-          "owner": "Annamalai V",
-          "listsortfield": "created_on",
-          "viewtype": null,
-          "celldataviewtype": null,
-          "listsortdir": "desc",
-          "isdefault": null,
-          "last_accessed_time": "2025-07-18T11:12:14",
-          "filters": [],
-          "groupby": [],
-          "columns": [
-            {
-              "id": "55555555-5555-5555-5555-555555555501",
-              "seqno": 10,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "display_name",
-              "columnwidth": 150
-            },
-            {
-              "id": "cb196a8f-b628-413f-8414-fa9d731cca72",
-              "seqno": 11,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "ticket_title",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555502",
-              "seqno": 20,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "email",
-              "columnwidth": 150
-            },
-            {
-              "id": "56555555-5555-5555-5555-555555555511",
-              "seqno": 25,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "ticketowner",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555503",
-              "seqno": 30,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "uniqueidentifier",
-              "api_name": "role",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555504",
-              "seqno": 40,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "numeric",
-              "api_name": "reporting_to",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555505",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "datetime",
-              "api_name": "created_on",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555506",
-              "seqno": 60,
-              "masterid": "1011",
-              "controltype": null,
-              "attrtype": "bit",
-              "api_name": "is_active",
-              "columnwidth": 150
-            },
-            {
-              "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
-              "seqno": 9,
-              "masterid": "1009",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "time_zone",
-              "columnwidth": 150
-            },
-            {
-              "id": "79776676-a17d-448d-aeee-3a17094a6c9a",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "job_title",
-              "columnwidth": 150
-            },
-            {
-              "id": "63bac56b-5470-47bd-abe9-6ea45926cdc9",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "employee_id",
-              "columnwidth": 150
-            },
-            {
-              "id": "21956e74-d8cd-13ce-80f4-145e52f84407",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "employee_id",
-              "columnwidth": 150
-            },
-            {
-              "id": "21956e74-d8cd-12ce-80f4-145e52f84407",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "employee_id",
-              "columnwidth": 150
-            },
-            {
-              "id": "21956e74-d8cd-42ce-80f4-145e52f84407",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "employee_id",
-              "columnwidth": 150
-            },
-            {
-              "id": "21956e74-d8cd-14ce-80f4-145e52f84407",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "primary_number",
-              "columnwidth": 150
-            },
-            {
-              "id": "8f64d27c-712f-49d6-ae74-8ddaafac3dfd",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "language",
-              "columnwidth": 150
-            },
-            {
-              "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "mobile",
-              "columnwidth": 150
-            },
-            {
-              "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "mobile",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555511",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "lead_owner",
-              "columnwidth": 150
-            }
-          ]
+    }
+  },
+  "Allocation_listdata": {
+    "statusCode": 1000,
+    "message": "Fetched successfully",
+    "data": {
+      "datas": [
+        {
+          "id": 2,
+          "ticketname": "TCK-1001",
+          "Category": "Communication",
+          "ticket_title": "Email Not Syncing",
+          "Priority": "High",
+          "country": "50m",
+          "mobile": "2h"
         },
-        "correlationId": ""
-      }
+        {
+          "id": 3,
+          "ticketname": "TCK-1002",
+          "Category": "Data Request",
+          "ticket_title": "Request for new dataset",
+          "priority": "Medium",
+          "country": "50m",
+          "mobile": "2h"
+        },
+        {
+          "id": 4,
+          "ticketname": "TCK-1003",
+          "Category": "Feature Request",
+          "ticket_title": "Future enhancement in CRM",
+          "priority": "Critical",
+          "country": "50m",
+          "mobile": "2h"
+        },
+        {
+          "id": 5,
+          "ticketname": "TCK-1004",
+          "Category": "Invoice",
+          "ticket_title": "Invoice correction",
+          "priority": "Medium",
+          "country": "50m",
+          "mobile": "2h"
+        },
+        {
+          "id": 6,
+          "ticketname": "TCK-1005",
+          "Category": "Software Access",
+          "ticket_title": "Access to HR software",
+          "priority": "Low",
+          "country": "50m",
+          "mobile": "2h"
+        },
+        {
+          "id": 7,
+          "ticketname": "TCK-1006",
+          "Category": "Product Discount",
+          "ticket_title": "Product discount approval",
+          "priority": "High",
+          "country": "50m",
+          "mobile": "2h"
+        },
+        {
+          "id": 8,
+          "ticketname": "TCK-1007",
+          "Category": "Communication",
+          "ticket_title": "Sever downtime issue",
+          "priority": "Critical",
+          "country": "50m",
+          "mobile": "2h"
+        },
+        {
+          "id": 9,
+          "ticketname": "TCK-1008",
+          "Category": "Invoice",
+          "ticket_title": "Clarification on tax invoice",
+          "priority": "Medium",
+          "country": "50m",
+          "mobile": "2h"
+        },
+        {
+          "id": 10,
+          "ticketname": "TCK-1009",
+          "Category": "Permission",
+          "ticket_title": "Request for AWS credentials",
+          "priority": "High",
+          "country": "50m",
+          "mobile": "2h"
+        },
+        {
+          "id": 11,
+          "ticketname": "TCK-1010",
+          "Category": "Data Request",
+          "ticket_title": "Requirement doc submission",
+          "priority": "Low",
+          "country": "50m",
+          "mobile": "2h"
+        },
+        {
+          "id": 12,
+          "ticketname": "TCK-1011",
+          "Category": "Software Access",
+          "ticket_title": "Laptop access permission",
+          "priority": "Medium",
+          "country": "50m",
+          "mobile": "2h"
+        },
+        {
+          "id": 13,
+          "ticketname": "TCK-1012",
+          "Category": "Product Discount",
+          "ticket_title": "Disconut request from client",
+          "priority": "High",
+          "country": "50m",
+          "mobile": "2h"
+        }
+      ],
+      "totalRecords": 15
     },
-    
+    "correlationId": ""
+  },
+  "Allocation_getlookupdatabyid": {
+    "data": {
+      "statusCode": 1000,
+      "message": "List of Masters for Tenant",
+      "data": [
+        {
+          "id": 1011,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "High"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Low"
+            },
+            {
+              "id": 101101,
+              "valueKey": "Medium"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1070,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Communication"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Data Request"
+            },
+            {
+              "id": 101103,
+              "valueKey": "Feature Request"
+            },
+            {
+              "id": 101104,
+              "valueKey": "Invoices"
+            },
+            {
+              "id": 101105,
+              "valueKey": "Product Discount"
+            },
+            {
+              "id": 101106,
+              "valueKey": "Software Access"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1071,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Free within 2 hours"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Free within 4 hours"
+            },
+            {
+              "id": 101103,
+              "valueKey": "Free within 6 hours"
+            },
+            {
+              "id": 101104,
+              "valueKey": "Free within 8 hours"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1072,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Database Optimization"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Development"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1073,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Support Agent"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        }
+      ],
+      "correlationId": null
+    }
+  },
+  "Allocation_getdatasetfieldinfobyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "id": "66666666-6666-6666-6666-666666666601",
+        "name": "All Tickets",
+        "owner": "Annamalai V",
+        "listsortfield": "created_on",
+        "viewtype": null,
+        "celldataviewtype": null,
+        "listsortdir": "desc",
+        "isdefault": null,
+        "last_accessed_time": "2025-07-18T11:12:14",
+        "filters": [],
+        "groupby": [],
+        "columns": [
+          {
+            "id": "55555555-5555-5555-5555-555555555501",
+            "seqno": 10,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "display_name",
+            "columnwidth": 150
+          },
+          {
+            "id": "cb196a8f-b628-413f-8414-fa9d731cca72",
+            "seqno": 11,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "ticket_title",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555502",
+            "seqno": 20,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "email",
+            "columnwidth": 150
+          },
+          {
+            "id": "56555555-5555-5555-5555-555555555511",
+            "seqno": 25,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "ticketowner",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555503",
+            "seqno": 30,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "uniqueidentifier",
+            "api_name": "role",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555504",
+            "seqno": 40,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "numeric",
+            "api_name": "reporting_to",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555505",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "datetime",
+            "api_name": "created_on",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555506",
+            "seqno": 60,
+            "masterid": "1011",
+            "controltype": null,
+            "attrtype": "bit",
+            "api_name": "is_active",
+            "columnwidth": 150
+          },
+          {
+            "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
+            "seqno": 9,
+            "masterid": "1009",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "time_zone",
+            "columnwidth": 150
+          },
+          {
+            "id": "79776676-a17d-448d-aeee-3a17094a6c9a",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "job_title",
+            "columnwidth": 150
+          },
+          {
+            "id": "63bac56b-5470-47bd-abe9-6ea45926cdc9",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-13ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-12ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-42ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-14ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "primary_number",
+            "columnwidth": 150
+          },
+          {
+            "id": "8f64d27c-712f-49d6-ae74-8ddaafac3dfd",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "language",
+            "columnwidth": 150
+          },
+          {
+            "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "mobile",
+            "columnwidth": 150
+          },
+          {
+            "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "mobile",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555511",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "lead_owner",
+            "columnwidth": 150
+          }
+        ]
+      },
+      "correlationId": ""
+    }
+  },
   "Agent_listdata": {
     "statusCode": 1000,
     "message": "Fetched successfully",
@@ -1637,7 +1594,6 @@
     },
     "correlationId": ""
   },
-
   "Agent_listpage_getlistconfigbyid": {
     "result": {
       "countryCode": 1000,
@@ -1667,7 +1623,7 @@
             "config": {
               "listfields": [
                 {
-                   "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
+                  "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
                   "name": "Agent ID",
                   "lablekey": "lbl-ticket-id",
                   "columnwidth": 150,
@@ -1751,7 +1707,7 @@
                   "isdate": false,
                   "islookup": false
                 },
-                  {
+                {
                   "id": "55555555-5555-5555-5555-555555555511",
                   "name": "Skills",
                   "lablekey": "lbl-priority",
@@ -1768,7 +1724,7 @@
                   "isdate": false,
                   "islookup": false
                 },
-                 {
+                {
                   "id": "63bac56b-5470-47bd-abe9-6ea45926cdc9",
                   "name": "Max Ticket Capacity",
                   "lablekey": "lbl-age",
@@ -1804,7 +1760,7 @@
                 }
               ],
               "filterfields": [
-                  {
+                {
                   "id": "16666666-6666-6666-6666-666666666603",
                   "name": "Agent ID",
                   "lablekey": "lbl-user-status",
@@ -1818,7 +1774,7 @@
                   "isvisible": false,
                   "apioutputvalue": null
                 },
-                  {
+                {
                   "id": "26666666-6666-6666-6666-666666666603",
                   "name": "Agent Name",
                   "lablekey": "lbl-user-status",
@@ -1846,7 +1802,7 @@
                   "isvisible": false,
                   "apioutputvalue": null
                 },
-                 {
+                {
                   "id": "46666666-6666-6666-6666-666666666603",
                   "name": "Role",
                   "lablekey": "lbl-user-status",
@@ -1906,9 +1862,6 @@
                   "masterid": "2010",
                   "displayapiname": null
                 },
-
-
-                
                 {
                   "id": "6e51a2b3-4c9e-4091-bea3-f0ebc6a565c0",
                   "name": "Role",
@@ -1950,7 +1903,6 @@
       "correlationId": ""
     }
   },
-  
   "Agent_getlookupdatabyid": {
     "data": {
       "statusCode": 1000,
@@ -1960,8 +1912,14 @@
           "id": 2012,
           "valuekey": "agentstatus",
           "masterdata": [
-            { "id": 201201, "valueKey": "Active" },
-            { "id": 201202, "valueKey": "Inactive" }
+            {
+              "id": 201201,
+              "valueKey": "Active"
+            },
+            {
+              "id": 201202,
+              "valueKey": "Inactive"
+            }
           ],
           "isactive": true
         },
@@ -1969,11 +1927,26 @@
           "id": 2001,
           "valuekey": "role",
           "masterdata": [
-            { "id": 200101, "valueKey": "Manager" },
-            { "id": 200102, "valueKey": "Agent" },
-            { "id": 200103, "valueKey": "Supervisor" },
-            { "id": 200104, "valueKey": "Viewer" },
-            { "id": 200105, "valueKey": "Admin" }
+            {
+              "id": 200101,
+              "valueKey": "Manager"
+            },
+            {
+              "id": 200102,
+              "valueKey": "Agent"
+            },
+            {
+              "id": 200103,
+              "valueKey": "Supervisor"
+            },
+            {
+              "id": 200104,
+              "valueKey": "Viewer"
+            },
+            {
+              "id": 200105,
+              "valueKey": "Admin"
+            }
           ],
           "isactive": true
         },
@@ -1981,13 +1954,34 @@
           "id": 2002,
           "valuekey": "department",
           "masterdata": [
-            { "id": 200201, "valueKey": "Development" },
-            { "id": 200202, "valueKey": "Product Owner" },
-            { "id": 200203, "valueKey": "IT" },
-            { "id": 200204, "valueKey": "QA" },
-            { "id": 200205, "valueKey": "Support" },
-            { "id": 200206, "valueKey": "Sales" },
-            { "id": 200207, "valueKey": "Operations" }
+            {
+              "id": 200201,
+              "valueKey": "Development"
+            },
+            {
+              "id": 200202,
+              "valueKey": "Product Owner"
+            },
+            {
+              "id": 200203,
+              "valueKey": "IT"
+            },
+            {
+              "id": 200204,
+              "valueKey": "QA"
+            },
+            {
+              "id": 200205,
+              "valueKey": "Support"
+            },
+            {
+              "id": 200206,
+              "valueKey": "Sales"
+            },
+            {
+              "id": 200207,
+              "valueKey": "Operations"
+            }
           ],
           "isactive": true
         },
@@ -1995,18 +1989,25 @@
           "id": 2003,
           "valuekey": "grade",
           "masterdata": [
-            { "id": 200301, "valueKey": "Junior" },
-            { "id": 200302, "valueKey": "Mid-level" },
-            { "id": 200303, "valueKey": "Senior" }
+            {
+              "id": 200301,
+              "valueKey": "Junior"
+            },
+            {
+              "id": 200302,
+              "valueKey": "Mid-level"
+            },
+            {
+              "id": 200303,
+              "valueKey": "Senior"
+            }
           ],
           "isactive": true
         }
       ],
       "correlationId": null
     }
-  
-},
-
+  },
   "Agent_listpage_getdatasetfieldinfobyid": {
     "result": {
       "statusCode": 1000,
@@ -2119,748 +2120,764 @@
       "correlationId": ""
     }
   },
-
   "Assignedticket_getlistconfigbyid": {
-      "result": {
-        "statusCode": 1000,
-        "message": "Fetched successfully",
-        "data": {
-          "list": {
-            "id": "44444444-4444-4444-4444-444444444401",
-            "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
-            "entityname": "arc_roles",
-            "name": "All Lead details",
-            "header": {
-              "name": "arc_roles"
-            },
-            "type": "List",
-            "data": {
-              "dataset": [
-                {
-                  "datasetid": "66666666-6666-6666-6666-666666666601",
-                  "title": "All Tickets",
-                  "isdefault": true,
-                  "isselected": true,
-                  "owner": "Annamalai V",
-                  "viewtype": "",
-                  "seqno": 1
-                }
-              ],
-              "config": {
-                "listfields": [
-                  {
-                    "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
-                    "name": "Ticket ID",
-                    "lablekey": "lbl-users-timezone",
-                    "columnwidth": 150,
-                    "seqno": 1,
-                    "masterid": "1009",
-                    "controltype": null,
-                    "attrtype": "nvarchar",
-                    "api_name": "time_zone",
-                    "visible": true,
-                    "displayapiname": "ticketid",
-                    "inlineeditable": null,
-                    "istitle": true,
-                    "isdate": false,
-                    "islookup": false
-                  },
-                  {
-                    "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
-                    "name": " Ticket Age",
-                    "lablekey": "lbl-users-country",
-                    "columnwidth": 150,
-                    "seqno": 2,
-                    "masterid": "1008",
-                    "controltype": "textbox",
-                    "attrtype": "nvarchar",
-                    "api_name": "country",
-                    "visible": true,
-                    "displayapiname": "country",
-                    "inlineeditable": null,
-                    "istitle": false,
-                    "isdate": false,
-                    "islookup": false
-                  },
-  
-                  {
-                    "id": "cb196a8f-b628-413f-8414-fa9d731cca72",
-                    "name": "Ticket Title",
-                    "lablekey": "lbl-users-timezone",
-                    "columnwidth": 150,
-                    "seqno": 1,
-                    "masterid": "1010",
-                    "controltype": null,
-                    "attrtype": "nvarchar",
-                    "api_name": "tickettitle",
-                    "visible": true,
-                    "displayapiname": "tickettitle",
-                    "inlineeditable": null,
-                    "istitle": false,
-                    "isdate": false,
-                    "islookup": false
-                  },
-  
-                  {
-                    "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
-                    "name": "Priority",
-                    "lablekey": "lbl-users-Mobile",
-                    "columnwidth": 150,
-                    "seqno": 8,
-                    "masterid": "",
-                    "controltype": "textbox",
-                    "attrtype": "nvarchar",
-                    "api_name": "mobile",
-                    "visible": true,
-                    "displayapiname": "mobile",
-                    "inlineeditable": null,
-                    "istitle": false,
-                    "isdate": false,
-                    "islookup": false
-                  }
-                ],
-                "filterfields": [
-                  {
-                    "id": "66666666-6666-6666-6666-666666666603",
-                    "name": "Ticket ID",
-                    "lablekey": "lbl-user-status",
-                    "seqno": 20,
-                    "filtercontroltype": "textbox",
-                    "isquickfilter": true,
-                    "api_name": "is_active",
-                    "islookup": false,
-                    "masterid": "1011",
-                    "apioutputskey": null,
-                    "isvisible": false,
-                    "apioutputvalue": null
-                  },
-                  {
-                    "id": "96666666-6666-6666-6666-666666666603",
-                    "name": "Priority",
-                    "lablekey": "lbl-user-status",
-                    "seqno": 25,
-                    "filtercontroltype": "dropdown",
-                    "isquickfilter": true,
-                    "api_name": "is_active",
-                    "islookup": false,
-                    "masterid": "1011",
-                    "apioutputskey": null,
-                    "isvisible": false,
-                    "apioutputvalue": null
-                  },
-                  {
-                    "id": "16666666-6666-6666-6666-666666666603",
-                    "name": "Category",
-                    "lablekey": "lbl-user-status",
-                    "seqno": 30,
-                    "filtercontroltype": "dropdown",
-                    "isquickfilter": true,
-                    "api_name": "is_active",
-                    "islookup": false,
-                    "masterid": "1070",
-                    "apioutputskey": null,
-                    "isvisible": false,
-                    "apioutputvalue": null
-                  }
-                ],
-                "groupbyfields": []
-              }
-            }
-          }
-        },
-        "correlationId": ""
-      }
-    },
-  
-    "Assignedticket_listdata": {
+    "result": {
       "statusCode": 1000,
       "message": "Fetched successfully",
       "data": {
-        "datas": [
-          {
-            "id": 2,
-            "ticketid": "TCK-1001",
-            "tickettitle": "Email Not Syncing",
-            "country": "4 days",
-            "mobile": "High"
+        "list": {
+          "id": "44444444-4444-4444-4444-444444444401",
+          "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
+          "entityname": "arc_roles",
+          "name": "All Lead details",
+          "header": {
+            "name": "arc_roles"
           },
-          {
-            "id": 3,
-            "ticketid": "TCK-1002",
-            "tickettitle": "Request for new dataset",
-            "country": "4 days",
-            "mobile": "High"
-          },
-          {
-            "id": 4,
-            "ticketid": "TCK-1003",
-            "tickettitle": "Future enhancement in CRM",
-            "country": "4 days",
-            "mobile": "High"
-          },
-          {
-            "id": 5,
-            "ticketid": "TCK-1004",
-            "tickettitle": "Invoice correction",
-            "country": "4 days",
-            "mobile": "High"
-          },
-          {
-            "id": 6,
-            "ticketid": "TCK-1005",
-            "tickettitle": "Access to HR software",
-            "country": "4 days",
-            "mobile": "High"
-          },
-          {
-            "id": 7,
-            "ticketid": "TCK-1006",
-            "tickettitle": "Product discount approval",
-            "country": "4 days",
-            "mobile": "High"
-          },
-          {
-            "id": 8,
-            "ticketid": "TCK-1007",
-            "tickettitle": "Sever downtime issue",
-            "country": "4 days",
-            "mobile": "High"
-          },
-          {
-            "id": 9,
-            "ticketid": "TCK-1012",
-            "tickettitle": "Disconut request from client",
-            "country": "4 days",
-            "mobile": "High"
-          }
-        ],
-        "totalRecords": 15
-      },
-      "correlationId": ""
-    },
-  
-    "Assignedticket_getlookupdatabyid": {
-      "data": {
-        "statusCode": 1000,
-        "message": "List of Masters for Tenant",
-        "data": [
-          {
-            "id": 1011,
-            "valuekey": "userstatus",
-            "labels": {},
-            "jsonmetadata": null,
-            "masterdata": [
+          "type": "List",
+          "data": {
+            "dataset": [
               {
-                "id": 101101,
-                "valueKey": "High"
-              },
-              {
-                "id": 101102,
-                "valueKey": "Low"
-              },
-              {
-                "id": 101101,
-                "valueKey": "Medium"
+                "datasetid": "66666666-6666-6666-6666-666666666601",
+                "title": "All Tickets",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "Annamalai V",
+                "viewtype": "",
+                "seqno": 1
               }
             ],
-            "isactive": true,
-            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-          },
-          {
-            "id": 1070,
-            "valuekey": "userstatus",
-            "labels": {},
-            "jsonmetadata": null,
-            "masterdata": [
-              {
-                "id": 101101,
-                "valueKey": "Communication"
-              },
-              {
-                "id": 101102,
-                "valueKey": "Data Request"
-              },
-              {
-                "id": 101103,
-                "valueKey": "Feature Request"
-              },
-              {
-                "id": 101104,
-                "valueKey": "Invoices"
-              },
-              {
-                "id": 101105,
-                "valueKey": "Product Discount"
-              },
-              {
-                "id": 101106,
-                "valueKey": "Software Access"
-              }
-            ],
-            "isactive": true,
-            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-          },
-          {
-            "id": 1071,
-            "valuekey": "userstatus",
-            "labels": {},
-            "jsonmetadata": null,
-            "masterdata": [
-              {
-                "id": 101101,
-                "valueKey": "Free within 2 hours"
-              },
-              {
-                "id": 101102,
-                "valueKey": "Free within 4 hours"
-              },
-              {
-                "id": 101103,
-                "valueKey": "Free within 6 hours"
-              },
-              {
-                "id": 101104,
-                "valueKey": "Free within 8 hours"
-              }
-            ],
-            "isactive": true,
-            "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-          }
-        ],
-        "correlationId": null
-      }
-    },
-  
-    "Assignedticket_getdatasetfieldinfobyid": {
-      "result": {
-        "statusCode": 1000,
-        "message": "Fetched successfully",
-        "data": {
-          "id": "66666666-6666-6666-6666-666666666601",
-          "name": "All Tickets",
-          "owner": "Annamalai V",
-          "listsortfield": "created_on",
-          "viewtype": null,
-          "celldataviewtype": null,
-          "listsortdir": "desc",
-          "isdefault": null,
-          "last_accessed_time": "2025-07-18T11:12:14",
-          "filters": [],
-          "groupby": [],
-          "columns": [
-            {
-              "id": "55555555-5555-5555-5555-555555555501",
-              "seqno": 10,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "display_name",
-              "columnwidth": 150
-            },
-            {
-              "id": "cb196a8f-b628-413f-8414-fa9d731cca72",
-              "seqno": 11,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "tickettitle",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555502",
-              "seqno": 20,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "email",
-              "columnwidth": 150
-            },
-            {
-              "id": "56555555-5555-5555-5555-555555555511",
-              "seqno": 25,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "ticketowner",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555503",
-              "seqno": 30,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "uniqueidentifier",
-              "api_name": "role",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555504",
-              "seqno": 40,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "numeric",
-              "api_name": "reporting_to",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555505",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "datetime",
-              "api_name": "created_on",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555506",
-              "seqno": 60,
-              "masterid": "1011",
-              "controltype": null,
-              "attrtype": "bit",
-              "api_name": "is_active",
-              "columnwidth": 150
-            },
-            {
-              "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
-              "seqno": 9,
-              "masterid": "1009",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "time_zone",
-              "columnwidth": 150
-            },
-            {
-              "id": "79776676-a17d-448d-aeee-3a17094a6c9a",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "job_title",
-              "columnwidth": 150
-            },
-            {
-              "id": "63bac56b-5470-47bd-abe9-6ea45926cdc9",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "employee_id",
-              "columnwidth": 150
-            },
-            {
-              "id": "21956e74-d8cd-13ce-80f4-145e52f84407",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "employee_id",
-              "columnwidth": 150
-            },
-            {
-              "id": "21956e74-d8cd-12ce-80f4-145e52f84407",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "employee_id",
-              "columnwidth": 150
-            },
-            {
-              "id": "21956e74-d8cd-42ce-80f4-145e52f84407",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "employee_id",
-              "columnwidth": 150
-            },
-            {
-              "id": "21956e74-d8cd-14ce-80f4-145e52f84407",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "primary_number",
-              "columnwidth": 150
-            },
-            {
-              "id": "8f64d27c-712f-49d6-ae74-8ddaafac3dfd",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "createdby",
-              "columnwidth": 150
-            },
-            {
-              "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "mobile",
-              "columnwidth": 150
-            },
-            {
-              "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "mobile",
-              "columnwidth": 150
-            },
-            {
-              "id": "55555555-5555-5555-5555-555555555511",
-              "seqno": 50,
-              "masterid": "0",
-              "controltype": null,
-              "attrtype": "nvarchar",
-              "api_name": "lead_owner",
-              "columnwidth": 150
-            }
-          ]
-        },
-        "correlationId": ""
-      }
-    },
-"Agentshift_listdata": {
-  "statusCode": 1000,
-  "message": "Fetched successfully",
-  "data": {
-    "datas": [
-      {
-        "sno":"1",
-        "shiftname": "Morning Core Team",
-        "createdby": "John Abraham",
-        "createdon": "2025-08-20",
-        "type": "Morning",
-        "timezone":"PT"
-        
-      },
-      {
-        "sno":"2",
-        "shiftname": "Evening Core Team",
-        "type": "Evening",
-        "createdby": "Sara Connor",
-        "createdon": "2025-08-21",
-        "timezone":"ET"
-      },
-      {
-        "sno":"3",
-        "shiftname": "Night Shift Crew",
-        "type": "Night",
-        "createdby": "Michael Smith",
-        "createdon": "2025-08-22",
-        "timezone":"CT"
-       
-      },
-      {
-        "sno":"4",
-        "shiftname": "Weekend Team",
-        "type": "Night",
-        "createdby": "Lisa Wong",
-        "createdon": "2025-08-23",
-         "timezone":"MT"
-      },
-      {
-        "sno":"5",
-        "shiftname": "Technical Support",
-        "type": "Morning",
-        "createdby": "David Johnson",
-        "createdon": "2025-08-24",
-         "timezone":"GMT"
-      }
-    ],
-    "totalRecords": 5
-  },
-  "correlationId": ""
-},
-"Agentshift_getlookupdatabyid": {
-  "data": {
-    "statusCode": 1000,
-    "message": "List of Masters for Tenant",
-    "data": [
-      {
-        "id": 2001,
-        "valuekey": "shift_type",
-        "labels": {},
-        "jsonmetadata": null,
-        "masterdata": [
-          { "id": 1, "valueKey": "Morning" },
-          { "id": 2, "valueKey": "Evening" },
-          { "id": 3, "valueKey": "Night" }
-        ],
-        "isactive": true,
-        "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-      },
-      {
-        "id": 2002,
-        "valuekey": "time_zone",
-        "labels": {},
-        "jsonmetadata": null,
-        "masterdata": [
-          { "id": 1, "valueKey": "PT" },
-          { "id": 2, "valueKey": "ET" },
-          { "id": 3, "valueKey": "CT" },
-          { "id": 4, "valueKey": "MT" },
-          { "id": 5, "valueKey": "GMT" }
-        ],
-        "isactive": true,
-        "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
-      }
-    ]
-  }
-},
-  "Agentshift_getlistconfigbyid": {
-      "result": {
-        "statusCode": 1000,
-        "message": "Fetched successfully",
-        "data": {
-          "list": {
-            "id": "44444444-4444-4444-4444-444444444401",
-            "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
-            "entityname": "arc_roles",
-            "name": "All Lead details",
-            "header": {
-              "name": "arc_roles"
-            },
-            "type": "List",
-            "data": {
-              "dataset": [
+            "config": {
+              "listfields": [
                 {
-                  "datasetid": "66666666-6666-6666-6666-666666666601",
-                  "title": "All Tickets",
-                  "isdefault": true,
-                  "isselected": true,
-                  "owner": "Annamalai V",
-                  "viewtype": "",
-                  "seqno": 1
+                  "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
+                  "name": "Ticket ID",
+                  "lablekey": "lbl-users-timezone",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "1009",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "time_zone",
+                  "visible": true,
+                  "displayapiname": "ticketid",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
+                  "name": " Ticket Age",
+                  "lablekey": "lbl-users-country",
+                  "columnwidth": 150,
+                  "seqno": 2,
+                  "masterid": "1008",
+                  "controltype": "textbox",
+                  "attrtype": "nvarchar",
+                  "api_name": "country",
+                  "visible": true,
+                  "displayapiname": "country",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "cb196a8f-b628-413f-8414-fa9d731cca72",
+                  "name": "Ticket Title",
+                  "lablekey": "lbl-users-timezone",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "1010",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "tickettitle",
+                  "visible": true,
+                  "displayapiname": "tickettitle",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
+                  "name": "Priority",
+                  "lablekey": "lbl-users-Mobile",
+                  "columnwidth": 150,
+                  "seqno": 8,
+                  "masterid": "",
+                  "controltype": "textbox",
+                  "attrtype": "nvarchar",
+                  "api_name": "mobile",
+                  "visible": true,
+                  "displayapiname": "mobile",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
                 }
               ],
-              "config": {
-                "listfields": [
-  {
-    "id": "01",
-    "name": "S.no",
-    "lablekey": "lbl-users-Phone",
-    "columnwidth": 100,
-    "seqno": 1,
-    "masterid": "",
-    "api_name": "sno",
-    "visible": true,
-    "displayapiname": "sno",
-    "istitle": false
-  },
-  {
-    "id": "02",
-    "name": "Shift Name",
-    "lablekey": "lbl-users-timezone",
-    "columnwidth": 150,
-    "seqno": 2,
-    "masterid": "",
-    "api_name": "shiftname",
-    "visible": true,
-    "displayapiname": "shiftname",
-    "istitle": true
-  },
-  {
-    "id": "03",
-    "name": "Created By",
-    "lablekey": "lbl-users-language",
-    "columnwidth": 200,
-    "seqno": 3,
-    "masterid": "",
-    "api_name": "createdby",
-    "visible": true,
-    "displayapiname": "createdby"
-  },
-  {
-    "id": "04",
-    "name": "Created On",
-    "lablekey": "lbl-users-language",
-    "columnwidth": 160,
-    "seqno": 4,
-    "masterid": "",
-    "api_name": "createdon",
-    "visible": true,
-    "displayapiname": "createdon"
-  },
-  {
-    "id": "05",
-    "name": "Type",
-    "lablekey": "lbl-users-language",
-    "columnwidth": 160,
-    "seqno": 5,
-    "masterid": "2001",
-    "api_name": "type",
-    "visible": true,
-    "displayapiname": "type"
-  },
-  {
-    "id": "06",
-    "name": "Time Zone",
-    "lablekey": "lbl-users-language",
-    "columnwidth": 160,
-    "seqno": 6,
-    "masterid": "2002",
-    "api_name": "timezone",
-    "visible": true,
-    "displayapiname": "timezone"
-  }
-],
- "filterfields": [
-                  {
-                    "id": "66666666-6666-6666-6666-666666666603",
-                    "name": "Shift Name",
-                    "lablekey": "lbl-user-status",
-                    "seqno": 20,
-                    "filtercontroltype": "textbox",
-                    "isquickfilter": true,
-                    "api_name": "is_active",
-                    "islookup": false,
-                    "masterid": "1011",
-                    "apioutputskey": null,
-                    "isvisible": false,
-                    "apioutputvalue": null
-                  },
-                  {
-                    "id": "96666666-6666-6666-6666-666666666603",
-                    "name": "Type",
-                    "lablekey": "lbl-user-status",
-                    "seqno": 25,
-                    "filtercontroltype": "dropdown",
-                    "isquickfilter": true,
-                    "api_name": "is_active",
-                    "islookup": false,
-                    "masterid": "2001",
-                    "apioutputskey": null,
-                    "isvisible": false,
-                    "apioutputvalue": null
-                  },
-                  {
-                    "id": "16666666-6666-6666-6666-666666666603",
-                    "name": "Created On",
-                    "lablekey": "lbl-user-status",
-                    "seqno": 30,
-                    "filtercontroltype": "datepicker",
-                    "isquickfilter": true,
-                    "api_name": "is_active",
-                    "islookup": false,
-                    "masterid": "",
-                    "apioutputskey": null,
-                    "isvisible": false,
-                    "apioutputvalue": null
-                  }
-                ],
-                "groupbyfields": []
-              }
+              "filterfields": [
+                {
+                  "id": "66666666-6666-6666-6666-666666666603",
+                  "name": "Ticket ID",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 20,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1011",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "96666666-6666-6666-6666-666666666603",
+                  "name": "Priority",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 25,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1011",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "16666666-6666-6666-6666-666666666603",
+                  "name": "Category",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 30,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1070",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                }
+              ],
+              "groupbyfields": []
             }
           }
+        }
+      },
+      "correlationId": ""
+    }
+  },
+  "Assignedticket_listdata": {
+    "statusCode": 1000,
+    "message": "Fetched successfully",
+    "data": {
+      "datas": [
+        {
+          "id": 2,
+          "ticketid": "TCK-1001",
+          "tickettitle": "Email Not Syncing",
+          "country": "4 days",
+          "mobile": "High"
         },
-        "correlationId": ""
-      }
+        {
+          "id": 3,
+          "ticketid": "TCK-1002",
+          "tickettitle": "Request for new dataset",
+          "country": "4 days",
+          "mobile": "High"
+        },
+        {
+          "id": 4,
+          "ticketid": "TCK-1003",
+          "tickettitle": "Future enhancement in CRM",
+          "country": "4 days",
+          "mobile": "High"
+        },
+        {
+          "id": 5,
+          "ticketid": "TCK-1004",
+          "tickettitle": "Invoice correction",
+          "country": "4 days",
+          "mobile": "High"
+        },
+        {
+          "id": 6,
+          "ticketid": "TCK-1005",
+          "tickettitle": "Access to HR software",
+          "country": "4 days",
+          "mobile": "High"
+        },
+        {
+          "id": 7,
+          "ticketid": "TCK-1006",
+          "tickettitle": "Product discount approval",
+          "country": "4 days",
+          "mobile": "High"
+        },
+        {
+          "id": 8,
+          "ticketid": "TCK-1007",
+          "tickettitle": "Sever downtime issue",
+          "country": "4 days",
+          "mobile": "High"
+        },
+        {
+          "id": 9,
+          "ticketid": "TCK-1012",
+          "tickettitle": "Disconut request from client",
+          "country": "4 days",
+          "mobile": "High"
+        }
+      ],
+      "totalRecords": 15
     },
+    "correlationId": ""
+  },
+  "Assignedticket_getlookupdatabyid": {
+    "data": {
+      "statusCode": 1000,
+      "message": "List of Masters for Tenant",
+      "data": [
+        {
+          "id": 1011,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "High"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Low"
+            },
+            {
+              "id": 101101,
+              "valueKey": "Medium"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1070,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Communication"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Data Request"
+            },
+            {
+              "id": 101103,
+              "valueKey": "Feature Request"
+            },
+            {
+              "id": 101104,
+              "valueKey": "Invoices"
+            },
+            {
+              "id": 101105,
+              "valueKey": "Product Discount"
+            },
+            {
+              "id": 101106,
+              "valueKey": "Software Access"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1071,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Free within 2 hours"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Free within 4 hours"
+            },
+            {
+              "id": 101103,
+              "valueKey": "Free within 6 hours"
+            },
+            {
+              "id": 101104,
+              "valueKey": "Free within 8 hours"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        }
+      ],
+      "correlationId": null
+    }
+  },
+  "Assignedticket_getdatasetfieldinfobyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "id": "66666666-6666-6666-6666-666666666601",
+        "name": "All Tickets",
+        "owner": "Annamalai V",
+        "listsortfield": "created_on",
+        "viewtype": null,
+        "celldataviewtype": null,
+        "listsortdir": "desc",
+        "isdefault": null,
+        "last_accessed_time": "2025-07-18T11:12:14",
+        "filters": [],
+        "groupby": [],
+        "columns": [
+          {
+            "id": "55555555-5555-5555-5555-555555555501",
+            "seqno": 10,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "display_name",
+            "columnwidth": 150
+          },
+          {
+            "id": "cb196a8f-b628-413f-8414-fa9d731cca72",
+            "seqno": 11,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "tickettitle",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555502",
+            "seqno": 20,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "email",
+            "columnwidth": 150
+          },
+          {
+            "id": "56555555-5555-5555-5555-555555555511",
+            "seqno": 25,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "ticketowner",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555503",
+            "seqno": 30,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "uniqueidentifier",
+            "api_name": "role",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555504",
+            "seqno": 40,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "numeric",
+            "api_name": "reporting_to",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555505",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "datetime",
+            "api_name": "created_on",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555506",
+            "seqno": 60,
+            "masterid": "1011",
+            "controltype": null,
+            "attrtype": "bit",
+            "api_name": "is_active",
+            "columnwidth": 150
+          },
+          {
+            "id": "ab196a8f-b628-413f-8414-fa9d731cca72",
+            "seqno": 9,
+            "masterid": "1009",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "time_zone",
+            "columnwidth": 150
+          },
+          {
+            "id": "79776676-a17d-448d-aeee-3a17094a6c9a",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "job_title",
+            "columnwidth": 150
+          },
+          {
+            "id": "63bac56b-5470-47bd-abe9-6ea45926cdc9",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-13ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-12ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-42ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-14ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "primary_number",
+            "columnwidth": 150
+          },
+          {
+            "id": "8f64d27c-712f-49d6-ae74-8ddaafac3dfd",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "createdby",
+            "columnwidth": 150
+          },
+          {
+            "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "mobile",
+            "columnwidth": 150
+          },
+          {
+            "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "mobile",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555511",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "lead_owner",
+            "columnwidth": 150
+          }
+        ]
+      },
+      "correlationId": ""
+    }
+  },
+  "Agentshift_listdata": {
+    "statusCode": 1000,
+    "message": "Fetched successfully",
+    "data": {
+      "datas": [
+        {
+          "sno": "1",
+          "shiftname": "Morning Core Team",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "type": "Morning",
+          "timezone": "PT"
+        },
+        {
+          "sno": "2",
+          "shiftname": "Evening Core Team",
+          "type": "Evening",
+          "createdby": "Sara Connor",
+          "createdon": "2025-08-21",
+          "timezone": "ET"
+        },
+        {
+          "sno": "3",
+          "shiftname": "Night Shift Crew",
+          "type": "Night",
+          "createdby": "Michael Smith",
+          "createdon": "2025-08-22",
+          "timezone": "CT"
+        },
+        {
+          "sno": "4",
+          "shiftname": "Weekend Team",
+          "type": "Night",
+          "createdby": "Lisa Wong",
+          "createdon": "2025-08-23",
+          "timezone": "MT"
+        },
+        {
+          "sno": "5",
+          "shiftname": "Technical Support",
+          "type": "Morning",
+          "createdby": "David Johnson",
+          "createdon": "2025-08-24",
+          "timezone": "GMT"
+        }
+      ],
+      "totalRecords": 5
+    },
+    "correlationId": ""
+  },
+  "Agentshift_getlookupdatabyid": {
+    "data": {
+      "statusCode": 1000,
+      "message": "List of Masters for Tenant",
+      "data": [
+        {
+          "id": 2001,
+          "valuekey": "shift_type",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 1,
+              "valueKey": "Morning"
+            },
+            {
+              "id": 2,
+              "valueKey": "Evening"
+            },
+            {
+              "id": 3,
+              "valueKey": "Night"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 2002,
+          "valuekey": "time_zone",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 1,
+              "valueKey": "PT"
+            },
+            {
+              "id": 2,
+              "valueKey": "ET"
+            },
+            {
+              "id": 3,
+              "valueKey": "CT"
+            },
+            {
+              "id": 4,
+              "valueKey": "MT"
+            },
+            {
+              "id": 5,
+              "valueKey": "GMT"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        }
+      ]
+    }
+  },
+  "Agentshift_getlistconfigbyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "list": {
+          "id": "44444444-4444-4444-4444-444444444401",
+          "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
+          "entityname": "arc_roles",
+          "name": "All Lead details",
+          "header": {
+            "name": "arc_roles"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "66666666-6666-6666-6666-666666666601",
+                "title": "All Tickets",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "Annamalai V",
+                "viewtype": "",
+                "seqno": 1
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "01",
+                  "name": "S.no",
+                  "lablekey": "lbl-users-Phone",
+                  "columnwidth": 100,
+                  "seqno": 1,
+                  "masterid": "",
+                  "api_name": "sno",
+                  "visible": true,
+                  "displayapiname": "sno",
+                  "istitle": false
+                },
+                {
+                  "id": "02",
+                  "name": "Shift Name",
+                  "lablekey": "lbl-users-timezone",
+                  "columnwidth": 150,
+                  "seqno": 2,
+                  "masterid": "",
+                  "api_name": "shiftname",
+                  "visible": true,
+                  "displayapiname": "shiftname",
+                  "istitle": true
+                },
+                {
+                  "id": "03",
+                  "name": "Created By",
+                  "lablekey": "lbl-users-language",
+                  "columnwidth": 200,
+                  "seqno": 3,
+                  "masterid": "",
+                  "api_name": "createdby",
+                  "visible": true,
+                  "displayapiname": "createdby"
+                },
+                {
+                  "id": "04",
+                  "name": "Created On",
+                  "lablekey": "lbl-users-language",
+                  "columnwidth": 160,
+                  "seqno": 4,
+                  "masterid": "",
+                  "api_name": "createdon",
+                  "visible": true,
+                  "displayapiname": "createdon"
+                },
+                {
+                  "id": "05",
+                  "name": "Type",
+                  "lablekey": "lbl-users-language",
+                  "columnwidth": 160,
+                  "seqno": 5,
+                  "masterid": "2001",
+                  "api_name": "type",
+                  "visible": true,
+                  "displayapiname": "type"
+                },
+                {
+                  "id": "06",
+                  "name": "Time Zone",
+                  "lablekey": "lbl-users-language",
+                  "columnwidth": 160,
+                  "seqno": 6,
+                  "masterid": "2002",
+                  "api_name": "timezone",
+                  "visible": true,
+                  "displayapiname": "timezone"
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "66666666-6666-6666-6666-666666666603",
+                  "name": "Shift Name",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 20,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1011",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "96666666-6666-6666-6666-666666666603",
+                  "name": "Type",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 25,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "2001",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "16666666-6666-6666-6666-666666666603",
+                  "name": "Created On",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 30,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                }
+              ],
+              "groupbyfields": []
+            }
+          }
+        }
+      },
+      "correlationId": ""
+    }
+  },
   "Agentshift_getdatasetfieldinfobyid": {
     "result": {
       "statusCode": 1000,
@@ -2879,27 +2896,27 @@
         "groupby": [],
         "columns": [
           {
-           "id": "01",
-              "seqno": 1,
-               "masterid": "0",
+            "id": "01",
+            "seqno": 1,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "",
+            "columnwidth": 50
+          },
+          {
+            "id": "02",
+            "seqno": 2,
+            "masterid": "0",
             "controltype": null,
             "attrtype": "nvarchar",
             "api_name": "",
             "columnwidth": 150
           },
           {
-           "id": "02",
-    "seqno": 2,
-    "masterid": "0",
-            "controltype": null,
-            "attrtype": "nvarchar",
-            "api_name": "",
-            "columnwidth": 150
-          },
-          {
-         "id": "03",
-    "seqno": 3,
-    "masterid": "0",
+            "id": "03",
+            "seqno": 3,
+            "masterid": "0",
             "controltype": null,
             "attrtype": "nvarchar",
             "api_name": "",
@@ -2907,8 +2924,8 @@
           },
           {
             "id": "04",
-    "seqno": 4,
-    "masterid": "0",
+            "seqno": 4,
+            "masterid": "0",
             "controltype": null,
             "attrtype": "nvarchar",
             "api_name": "",
@@ -2916,28 +2933,1790 @@
           },
           {
             "id": "05",
-    "seqno": 5,
-    "masterid": "",
+            "seqno": 5,
+            "masterid": "",
             "controltype": null,
             "attrtype": "nvarchar",
             "api_name": "",
             "columnwidth": 190
           },
           {
-          "id": "06",
-    "seqno": 6,
-    "masterid": "2002",
+            "id": "06",
+            "seqno": 6,
+            "masterid": "2002",
             "controltype": null,
             "attrtype": "nvarchar",
             "api_name": "",
             "columnwidth": 200
           }
-         
         ]
       },
       "correlationId": ""
     }
-  } 
-
-
+  },
+  "Impact_getlistconfigbyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "list": {
+          "id": "44444444-4444-4444-4444-444444444401",
+          "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
+          "entityname": "impact",
+          "name": "Impact",
+          "header": {
+            "name": "impact"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "66666666-6666-6666-6666-666666666601",
+                "title": "Impact",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "John Abraham",
+                "viewtype": "",
+                "seqno": 1
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "01",
+                  "name": "S.no",
+                  "lablekey": "lbl-impact-sno",
+                  "columnwidth": 80,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "sno",
+                  "visible": true,
+                  "displayapiname": "sno",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "02",
+                  "name": "Name",
+                  "lablekey": "lbl-impact-name",
+                  "columnwidth": 150,
+                  "seqno": 2,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "name",
+                  "visible": true,
+                  "displayapiname": "name",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "03",
+                  "name": "Description",
+                  "lablekey": "lbl-impact-description",
+                  "columnwidth": 300,
+                  "seqno": 3,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "description",
+                  "visible": true,
+                  "displayapiname": "description",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "04",
+                  "name": "Created By",
+                  "lablekey": "lbl-impact-createdby",
+                  "columnwidth": 150,
+                  "seqno": 4,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "createdby",
+                  "visible": true,
+                  "displayapiname": "createdby",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "05",
+                  "name": "Created On",
+                  "lablekey": "lbl-impact-createdon",
+                  "columnwidth": 150,
+                  "seqno": 5,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "createdon",
+                  "visible": true,
+                  "displayapiname": "createdon",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": true,
+                  "islookup": false
+                },
+                {
+                  "id": "06",
+                  "name": "Status",
+                  "lablekey": "lbl-impact-status",
+                  "columnwidth": 120,
+                  "seqno": 6,
+                  "masterid": "",
+                  "controltype": "checkbox",
+                  "attrtype": "boolean",
+                  "api_name": "status",
+                  "visible": true,
+                  "displayapiname": "status",
+                  "inlineeditable": true,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "66666666-6666-6666-6666-666666666603",
+                  "name": "Name",
+                  "lablekey": "lbl-impact-name",
+                  "seqno": 20,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "name",
+                  "islookup": false,
+                  "masterid": "",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "96666666-6666-6666-6666-666666666603",
+                  "name": "Status",
+                  "lablekey": "lbl-impact-status",
+                  "seqno": 25,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "status",
+                  "islookup": false,
+                  "masterid": "3001",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "16666666-6666-6666-6666-666666666603",
+                  "name": "Created On",
+                  "lablekey": "lbl-impact-createdon",
+                  "seqno": 30,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "createdon",
+                  "islookup": false,
+                  "masterid": "",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                }
+              ],
+              "groupbyfields": []
+            }
+          }
+        }
+      },
+      "correlationId": ""
+    }
+  },
+  "Impact_listdata": {
+    "statusCode": 1000,
+    "message": "Fetched successfully",
+    "data": {
+      "datas": [
+        {
+          "sno": "1",
+          "id": 1,
+          "name": "Minor",
+          "description": "Low-impact issue with minimal effect on functionality.",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "status": false
+        },
+        {
+          "sno": "2",
+          "id": 2,
+          "name": "Moderate",
+          "description": "Partial impact with a workaround available.",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "status": true
+        },
+        {
+          "sno": "3",
+          "id": 3,
+          "name": "Major",
+          "description": "Key functionality significantly affected, no clear workaround.",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "status": true
+        },
+        {
+          "sno": "4",
+          "id": 4,
+          "name": "Severe",
+          "description": "System or service unavailable, causing major disruption.",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "status": true
+        }
+      ],
+      "totalRecords": 4
+    },
+    "correlationId": ""
+  },
+  "Impact_getdatasetfieldinfobyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "id": "66666666-6666-6666-6666-666666666601",
+        "name": "All Agents",
+        "owner": "Annamalai V",
+        "listsortfield": "created_on",
+        "listsortdir": "desc",
+        "filters": [],
+        "groupby": [],
+        "columns": [
+          {
+            "id": "01",
+            "seqno": 1,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "sno",
+            "columnwidth": 80
+          },
+          {
+            "id": "02",
+            "seqno": 2,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "name",
+            "columnwidth": 150
+          },
+          {
+            "id": "03",
+            "seqno": 3,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "description",
+            "columnwidth": 300
+          },
+          {
+            "id": "04",
+            "seqno": 4,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "createdby",
+            "columnwidth": 150
+          },
+          {
+            "id": "05",
+            "seqno": 5,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "datetime",
+            "api_name": "createdon",
+            "columnwidth": 150
+          },
+          {
+            "id": "06",
+            "seqno": 6,
+            "masterid": "0",
+            "controltype": "toggle",
+            "attrtype": "boolean",
+            "api_name": "status",
+            "columnwidth": 120
+          }
+        ]
+      },
+      "correlationId": ""
+    }
+  },
+  "Impact_getlookupdatabyid": {
+    "data": {
+      "statusCode": 1000,
+      "message": "List of Masters for Tenant",
+      "data": [
+        {
+          "id": 3001,
+          "valuekey": "status",
+          "masterdata": [
+            {
+              "id": 1,
+              "valueKey": "Active"
+            },
+            {
+              "id": 2,
+              "valueKey": "Inactive"
+            }
+          ]
+        },
+        {
+          "id": 3002,
+          "valuekey": "userstatus",
+          "masterdata": [
+            {
+              "id": 1,
+              "valueKey": "Minnor"
+            },
+            {
+              "id": 2,
+              "valueKey": "Major"
+            },
+            {
+              "id": 3,
+              "valueKey": "Severe"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "32a43df5-d2d2-43d4-ae28-be2ac04a87bb"
+        }
+      ]
+    }
+  },
+  "UserImpact_getlistconfigbyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "list": {
+          "id": "44444444-4444-4444-4444-444444444402",
+          "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4f",
+          "entityname": "userimpact",
+          "name": "User Impact",
+          "header": {
+            "name": "userimpact"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "66666666-6666-6666-6666-666666666602",
+                "title": "User Impact",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "John Abraham",
+                "viewtype": "",
+                "seqno": 1
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "01",
+                  "name": "S.no",
+                  "columnwidth": 80,
+                  "seqno": 1,
+                  "masterid": "",
+                  "api_name": "sno",
+                  "visible": true,
+                  "displayapiname": "sno",
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "02",
+                  "name": "Name",
+                  "columnwidth": 150,
+                  "seqno": 2,
+                  "masterid": "",
+                  "api_name": "name",
+                  "visible": true,
+                  "displayapiname": "name",
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "03",
+                  "name": "Description",
+                  "columnwidth": 300,
+                  "seqno": 3,
+                  "masterid": "",
+                  "api_name": "description",
+                  "visible": true,
+                  "displayapiname": "description",
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "04",
+                  "name": "Created by",
+                  "columnwidth": 150,
+                  "seqno": 4,
+                  "masterid": "",
+                  "api_name": "createdby",
+                  "visible": true,
+                  "displayapiname": "createdby",
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "05",
+                  "name": "Created on",
+                  "columnwidth": 150,
+                  "seqno": 5,
+                  "masterid": "",
+                  "api_name": "createdon",
+                  "visible": true,
+                  "displayapiname": "createdon",
+                  "istitle": false,
+                  "isdate": true,
+                  "islookup": false
+                },
+                {
+                  "id": "06",
+                  "name": "Status",
+                  "columnwidth": 100,
+                  "seqno": 6,
+                  "masterid": "",
+                  "controltype": "toggle",
+                  "attrtype": "bit",
+                  "api_name": "status",
+                  "visible": true,
+                  "displayapiname": "status",
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false,
+                  "inlineeditable": true
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "77777777-7777-7777-7777-777777777701",
+                  "name": "Name",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 20,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1011",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "77777777-7777-7777-7777-777777777702",
+                  "name": "Status",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 25,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "3001",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "77777777-7777-7777-7777-777777777703",
+                  "name": "Created On",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 30,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                }
+              ],
+              "groupbyfields": []
+            }
+          }
+        }
+      },
+      "correlationId": ""
+    }
+  },
+  "UserImpact_listdata": {
+    "statusCode": 1000,
+    "message": "Fetched successfully",
+    "data": {
+      "datas": [
+        {
+          "sno": "1",
+          "id": 1,
+          "name": "Organization",
+          "description": "Impacts all users, potentially disrupting company-wide operations.",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "status": true
+        },
+        {
+          "sno": "2",
+          "id": 2,
+          "name": "Department",
+          "description": "Impacts a department or business unit, affecting multiple users.",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "status": true
+        },
+        {
+          "sno": "3",
+          "id": 3,
+          "name": "Group",
+          "description": "Impacts a subset of users or a team within a department.",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "status": true
+        },
+        {
+          "sno": "4",
+          "id": 4,
+          "name": "Single User",
+          "description": "Impacts an individual user; no other users are affected.",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "status": true
+        }
+      ],
+      "totalRecords": 4
+    },
+    "correlationId": ""
+  },
+  "UserImpact_getdatasetfieldinfobyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "id": "66666666-6666-6666-6666-666666666602",
+        "name": "All User Impacts",
+        "owner": "John Abraham",
+        "listsortfield": "created_on",
+        "listsortdir": "desc",
+        "filters": [],
+        "groupby": [],
+        "columns": [
+          {
+            "id": "01",
+            "seqno": 1,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "name",
+            "columnwidth": 150
+          },
+          {
+            "id": "02",
+            "seqno": 2,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "description",
+            "columnwidth": 300
+          },
+          {
+            "id": "03",
+            "seqno": 3,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "createdby",
+            "columnwidth": 150
+          },
+          {
+            "id": "04",
+            "seqno": 4,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "datetime",
+            "api_name": "createdon",
+            "columnwidth": 150
+          },
+          {
+            "id": "05",
+            "seqno": 5,
+            "masterid": "0",
+            "controltype": "toggle",
+            "attrtype": "bit",
+            "api_name": "status",
+            "columnwidth": 100
+          }
+        ]
+      },
+      "correlationId": ""
+    }
+  },
+  "UserImpact_getlookupdatabyid": {
+    "data": {
+      "statusCode": 1000,
+      "message": "List of Masters for Tenant",
+      "data": [
+        {
+          "id": 3001,
+          "valuekey": "status",
+          "masterdata": [
+            {
+              "id": 1,
+              "valueKey": "Active"
+            },
+            {
+              "id": 2,
+              "valueKey": "Inactive"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "SLA_getlookupdatabyid": {
+    "data": {
+      "statusCode": 1000,
+      "message": "List of Masters for Tenant",
+      "data": [
+        {
+          "id": 1011,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Stage 1"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Stage 2"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1012,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Active"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Inactive"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1001,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Admin"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Analyst"
+            },
+            {
+              "id": 101103,
+              "valueKey": "CEO"
+            },
+            {
+              "id": 101104,
+              "valueKey": "CMS/Ops"
+            },
+            {
+              "id": 101105,
+              "valueKey": "Desk operations"
+            },
+            {
+              "id": 101106,
+              "valueKey": "Development"
+            },
+            {
+              "id": 101107,
+              "valueKey": "DevOps"
+            },
+            {
+              "id": 101108,
+              "valueKey": "Finance & Accounts"
+            },
+            {
+              "id": 101109,
+              "valueKey": "Human Resource"
+            },
+            {
+              "id": 101110,
+              "valueKey": "Implementation"
+            },
+            {
+              "id": 101111,
+              "valueKey": "IT"
+            },
+            {
+              "id": 101112,
+              "valueKey": "Marketing"
+            },
+            {
+              "id": 101113,
+              "valueKey": "Networking"
+            },
+            {
+              "id": 101114,
+              "valueKey": "Operations"
+            },
+            {
+              "id": 101115,
+              "valueKey": "Product Analyst"
+            },
+            {
+              "id": 101116,
+              "valueKey": "Product Development"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1002,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "AP Adhoc"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Bugs"
+            },
+            {
+              "id": 101103,
+              "valueKey": "Communication"
+            },
+            {
+              "id": 101104,
+              "valueKey": "Content"
+            },
+            {
+              "id": 101105,
+              "valueKey": "Customer Pilot"
+            },
+            {
+              "id": 101106,
+              "valueKey": "Data Request"
+            },
+            {
+              "id": 101107,
+              "valueKey": "Employee Query"
+            },
+            {
+              "id": 101108,
+              "valueKey": "Feature Request"
+            },
+            {
+              "id": 101109,
+              "valueKey": "Hardware Request"
+            },
+            {
+              "id": 101110,
+              "valueKey": "Invoices"
+            },
+            {
+              "id": 101111,
+              "valueKey": "Maintenance"
+            },
+            {
+              "id": 101112,
+              "valueKey": "New Campaign"
+            },
+            {
+              "id": 101113,
+              "valueKey": "New Hire Request"
+            },
+            {
+              "id": 101114,
+              "valueKey": "Off Boarding"
+            },
+            {
+              "id": 101115,
+              "valueKey": "Permission"
+            },
+            {
+              "id": 101116,
+              "valueKey": "Procurement"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1003,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Approval"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Backlog"
+            },
+            {
+              "id": 101103,
+              "valueKey": "Clarification"
+            },
+            {
+              "id": 101104,
+              "valueKey": "Configuration"
+            },
+            {
+              "id": 101105,
+              "valueKey": "Device"
+            },
+            {
+              "id": 101106,
+              "valueKey": "Execution"
+            },
+            {
+              "id": 101107,
+              "valueKey": "FeatureRequest"
+            },
+            {
+              "id": 101108,
+              "valueKey": "Functional"
+            },
+            {
+              "id": 101109,
+              "valueKey": "Information"
+            },
+            {
+              "id": 101110,
+              "valueKey": "Leave Request"
+            },
+            {
+              "id": 101111,
+              "valueKey": "Observation"
+            },
+            {
+              "id": 101112,
+              "valueKey": "Permission Request"
+            },
+            {
+              "id": 101113,
+              "valueKey": "Query"
+            },
+            {
+              "id": 101114,
+              "valueKey": "Requirment"
+            },
+            {
+              "id": 101115,
+              "valueKey": "Permission"
+            },
+            {
+              "id": 101116,
+              "valueKey": "Training"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1004,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Critical"
+            },
+            {
+              "id": 101102,
+              "valueKey": "High"
+            },
+            {
+              "id": 101103,
+              "valueKey": "Low"
+            },
+            {
+              "id": 101104,
+              "valueKey": "Medium"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1005,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Anthony Ellis"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Anna Malai"
+            },
+            {
+              "id": 101103,
+              "valueKey": "DRS"
+            },
+            {
+              "id": 101104,
+              "valueKey": "Ravi"
+            },
+            {
+              "id": 101105,
+              "valueKey": "Bhoopathy"
+            },
+            {
+              "id": 101106,
+              "valueKey": "Execution"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        },
+        {
+          "id": 1070,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Open"
+            },
+            {
+              "id": 101102,
+              "valueKey": "New"
+            },
+            {
+              "id": 101103,
+              "valueKey": "In Progress"
+            },
+            {
+              "id": 101104,
+              "valueKey": "Closed"
+            },
+            {
+              "id": 101105,
+              "valueKey": "Hold"
+            },
+            {
+              "id": 101106,
+              "valueKey": "Reopen"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        }
+      ],
+      "correlationId": null
+    }
+  },
+  "SLA_getlistconfigbyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "list": {
+          "id": "44444444-4444-4444-4444-444444444401",
+          "entityid": "cd0c11c9-7103-4685-84d8-0a08b31f4d4e",
+          "entityname": "arc_roles",
+          "name": "All Lead details",
+          "header": {
+            "name": "arc_roles"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "66666666-6666-6666-6666-666666666601",
+                "title": "All Tickets",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "Annamalai V",
+                "viewtype": "",
+                "seqno": 1
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "02",
+                  "name": "SLA Name",
+                  "lablekey": "lbl-users-Phone",
+                  "columnwidth": 150,
+                  "seqno": 2,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "slaname",
+                  "visible": true,
+                  "displayapiname": "slaname",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "01",
+                  "name": "S.no",
+                  "lablekey": "lbl-users-timezone",
+                  "columnwidth": 150,
+                  "seqno": 1,
+                  "masterid": "1009",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "s.no",
+                  "visible": true,
+                  "displayapiname": "s.no",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "05",
+                  "name": "Last Modified By",
+                  "lablekey": "lbl-users-lastmodifiedby",
+                  "columnwidth": 150,
+                  "seqno": 3,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "lastmodifiedby",
+                  "visible": true,
+                  "displayapiname": "lastmodifiedby",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "06",
+                  "name": "Last Modified On",
+                  "lablekey": "lbl-users-lastmodifiedon",
+                  "columnwidth": 150,
+                  "seqno": 4,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "lastmodifiedon",
+                  "visible": true,
+                  "displayapiname": "lastmodifiedon",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": true,
+                  "islookup": false
+                },
+                {
+                  "id": "04",
+                  "name": "Created On",
+                  "lablekey": "lbl-users-language",
+                  "columnwidth": 150,
+                  "seqno": 7,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "createdon",
+                  "visible": true,
+                  "displayapiname": "createdon",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "03",
+                  "name": "Created By",
+                  "lablekey": "lbl-users-language",
+                  "columnwidth": 150,
+                  "seqno": 6,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "createdby",
+                  "visible": true,
+                  "displayapiname": "createdby",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "09",
+                  "name": "Is Active",
+                  "lablekey": "lbl-users-country",
+                  "columnwidth": 150,
+                  "seqno": 9,
+                  "masterid": "1008",
+                  "controltype": "textbox",
+                  "attrtype": "nvarchar",
+                  "api_name": "status",
+                  "visible": true,
+                  "displayapiname": "status",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "16666666-6666-6666-6666-666666666603",
+                  "name": "Status",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 25,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "1070",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "96666666-6666-6666-6666-666666666603",
+                  "name": "Created On",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 30,
+                  "filtercontroltype": "datepicker",
+                  "isquickfilter": true,
+                  "api_name": "is_active",
+                  "islookup": false,
+                  "masterid": "",
+                  "apioutputskey": null,
+                  "isvisible": false,
+                  "apioutputvalue": null
+                }
+              ],
+              "groupbyfields": []
+            }
+          }
+        }
+      },
+      "correlationId": ""
+    }
+  },
+  "SLA_getdatasetfieldinfobyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "id": "66666666-6666-6666-6666-666666666601",
+        "name": "All Tickets",
+        "owner": "Annamalai V",
+        "listsortfield": "created_on",
+        "viewtype": null,
+        "celldataviewtype": null,
+        "listsortdir": "desc",
+        "isdefault": null,
+        "last_accessed_time": "2025-07-18T11:12:14",
+        "filters": [],
+        "groupby": [],
+        "groupby": [],
+        "columns": [
+          {
+            "id": "01",
+            "seqno": 1,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "slaname",
+            "columnwidth": 150
+          },
+          {
+            "id": "02",
+            "seqno": 2,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "department",
+            "columnwidth": 150
+          },
+          {
+            "id": "03",
+            "seqno": 3,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "priority",
+            "columnwidth": 150
+          },
+          {
+            "id": "04",
+            "seqno": 4,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "reminder",
+            "columnwidth": 150
+          },
+          {
+            "id": "05",
+            "seqno": 5,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "escalation",
+            "columnwidth": 150
+          },
+          {
+            "id": "06",
+            "seqno": 6,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "createdby",
+            "columnwidth": 150
+          },
+          {
+            "id": "07",
+            "seqno": 7,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "createdon",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555506",
+            "seqno": 60,
+            "masterid": "1011",
+            "controltype": null,
+            "attrtype": "bit",
+            "api_name": "is_active",
+            "columnwidth": 150
+          },
+          {
+            "id": "08",
+            "seqno": 9,
+            "masterid": "1009",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "status",
+            "columnwidth": 150
+          },
+          {
+            "id": "09",
+            "seqno": 9,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "is_active",
+            "columnwidth": 150
+          },
+          {
+            "id": "63bac56b-5470-47bd-abe9-6ea45926cdc9",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-13ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-12ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-42ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "employee_id",
+            "columnwidth": 150
+          },
+          {
+            "id": "21956e74-d8cd-14ce-80f4-145e52f84407",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "primary_number",
+            "columnwidth": 150
+          },
+          {
+            "id": "8f64d27c-712f-49d6-ae74-8ddaafac3dfd",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "language",
+            "columnwidth": 150
+          },
+          {
+            "id": "1f2701f2-de1b-4c72-b41f-32e3c586bb1d1",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "mobile",
+            "columnwidth": 150
+          },
+          {
+            "id": "7b0bb530-0d49-4c6a-a860-fc02d233c2b4",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "mobile",
+            "columnwidth": 150
+          },
+          {
+            "id": "7b0bb530-0d49-4c6a-b960-fc02d233c2b4",
+            "seqno": 60,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "mobile",
+            "columnwidth": 150
+          },
+          {
+            "id": "55555555-5555-5555-5555-555555555511",
+            "seqno": 50,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "lead_owner",
+            "columnwidth": 150
+          }
+        ]
+      },
+      "correlationId": ""
+    }
+  },
+  "SLA_listdata": {
+    "statusCode": 1000,
+    "message": "Fetched successfully",
+    "data": {
+      "datas": [
+        {
+          "s.no": "1",
+          "slaname": "Default Policy",
+          "createdby": "John Abraham",
+          "createdon": "2025-06-20",
+          "lastmodifiedby": "John Abraham",
+          "lastmodifiedon": "2025-10-14",
+          "isactive": false
+        },
+        {
+          "slaname": "Standard Service Request Fullfillment",
+          "department": "IT Operations",
+          "priority": "High",
+          "reminder": "2",
+          "escalation": "1",
+          "createdby": "Michael Wang",
+          "createdon": "2025-06-20",
+          "language": "Draft",
+          "isactive": false
+        },
+        {
+          "slaname": "Customer Support Response SLA",
+          "department": "Customer Support",
+          "priority": "Low",
+          "reminder": "3",
+          "escalation": "2",
+          "createdby": "Sara Marie",
+          "createdon": "2025-06-20",
+          "language": "Created",
+          "isactive": false
+        },
+        {
+          "slaname": "Network Connectivity Issue Resolution",
+          "department": "Network Operations",
+          "priority": "Medium",
+          "reminder": "2",
+          "escalation": "None",
+          "createdby": "Robin Joe",
+          "createdon": "2025-06-20",
+          "language": "Created",
+          "isactive": false
+        }
+      ],
+      "totalRecords": 4
+    },
+    "correlationId": ""
+  },
+  "Priority_listdata": {
+    "statusCode": 1000,
+    "message": "Fetched successfully",
+    "data": {
+      "datas": [
+        {
+          "id": 1,
+          "sno": 1,
+          "name": "Low",
+          "description": "Minimal impact, can be resolved as time permits",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "isactive": true
+        },
+        {
+          "id": 2,
+          "sno": 2,
+          "name": "Medium",
+          "description": "Moderate impact, should be addressed within a reasonable timeframe",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "isactive": true
+        },
+        {
+          "id": 3,
+          "sno": 3,
+          "name": "High",
+          "description": "Needs prompt resolution as it affects important functionality",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "isactive": true
+        },
+        {
+          "id": 4,
+          "sno": 4,
+          "name": "Critical",
+          "description": "Requires immediate attention due to major business impact",
+          "createdby": "John Abraham",
+          "createdon": "2025-08-20",
+          "isactive": true
+        }
+      ],
+      "totalRecords": 4
+    },
+    "correlationId": ""
+  },
+  "Priority_getlookupdatabyid": {
+    "data": {
+      "statusCode": 1000,
+      "message": "List of Masters for Tenant",
+      "data": [
+        {
+          "id": 1070,
+          "valuekey": "userstatus",
+          "labels": {},
+          "jsonmetadata": null,
+          "masterdata": [
+            {
+              "id": 101101,
+              "valueKey": "Inactive"
+            },
+            {
+              "id": 101102,
+              "valueKey": "Active"
+            }
+          ],
+          "isactive": true,
+          "tenantid": "e7a13743-d7e8-4f2d-8f43-0c1b212264b1"
+        }
+      ],
+      "correlationId": null
+    }
+  },
+  "Priority_listpage_getlistconfigbyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "list": {
+          "id": "44444444-4444-4444-4444-444444444999",
+          "entityid": "00000000-0000-0000-0000-000000000000",
+          "entityname": "priority",
+          "name": "All Priorities",
+          "header": {
+            "name": "Priority"
+          },
+          "type": "List",
+          "data": {
+            "dataset": [
+              {
+                "datasetid": "66666666-6666-6666-6666-666666666999",
+                "title": "All Priorities",
+                "isdefault": true,
+                "isselected": true,
+                "owner": "System",
+                "viewtype": "",
+                "seqno": 1
+              }
+            ],
+            "config": {
+              "listfields": [
+                {
+                  "id": "01",
+                  "name": "S.no",
+                  "lablekey": "lbl-priority-sno",
+                  "columnwidth": 90,
+                  "seqno": 1,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "numeric",
+                  "api_name": "sno",
+                  "visible": true,
+                  "displayapiname": "sno",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "02",
+                  "name": "Name",
+                  "lablekey": "lbl-priority-name",
+                  "columnwidth": 180,
+                  "seqno": 2,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "name",
+                  "visible": true,
+                  "displayapiname": "name",
+                  "inlineeditable": null,
+                  "istitle": true,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "03",
+                  "name": "Description",
+                  "lablekey": "lbl-priority-description",
+                  "columnwidth": 420,
+                  "seqno": 3,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "description",
+                  "visible": true,
+                  "displayapiname": "description",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "04",
+                  "name": "Created by",
+                  "lablekey": "lbl-priority-createdby",
+                  "columnwidth": 160,
+                  "seqno": 4,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "nvarchar",
+                  "api_name": "createdby",
+                  "visible": true,
+                  "displayapiname": "createdby",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                },
+                {
+                  "id": "05",
+                  "name": "Created on",
+                  "lablekey": "lbl-priority-createdon",
+                  "columnwidth": 160,
+                  "seqno": 5,
+                  "masterid": "",
+                  "controltype": null,
+                  "attrtype": "datetime",
+                  "api_name": "createdon",
+                  "visible": true,
+                  "displayapiname": "createdon",
+                  "inlineeditable": null,
+                  "istitle": false,
+                  "isdate": true,
+                  "islookup": false
+                },
+                {
+                  "id": "06",
+                  "name": "Status",
+                  "lablekey": "lbl-priority-status",
+                  "columnwidth": 120,
+                  "seqno": 6,
+                  "masterid": "",
+                  "controltype": "checkbox",
+                  "attrtype": "bit",
+                  "api_name": "status",
+                  "visible": true,
+                  "displayapiname": "status",
+                  "inlineeditable": true,
+                  "istitle": false,
+                  "isdate": false,
+                  "islookup": false
+                }
+              ],
+              "filterfields": [
+                {
+                  "id": "f01",
+                  "name": "Name",
+                  "lablekey": "lbl-priority-name-filter",
+                  "seqno": 10,
+                  "filtercontroltype": "textbox",
+                  "isquickfilter": true,
+                  "api_name": "name",
+                  "islookup": false,
+                  "masterid": "",
+                  "apioutputskey": null,
+                  "isvisible": true,
+                  "apioutputvalue": null
+                },
+                {
+                  "id": "26666666-6666-6666-6666-666666666603",
+                  "name": "Status",
+                  "lablekey": "lbl-user-status",
+                  "seqno": 20,
+                  "filtercontroltype": "dropdown",
+                  "isquickfilter": true,
+                  "api_name": "Status",
+                  "islookup": false,
+                  "masterid": "1070",
+                  "apioutputskey": null,
+                  "isvisible": false
+                }
+              ],
+              "groupbyfields": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "Priority_listpage_getdatasetfieldinfobyid": {
+    "result": {
+      "statusCode": 1000,
+      "message": "Fetched successfully",
+      "data": {
+        "id": "66666666-6666-6666-6666-666666666999",
+        "name": "All Priorities",
+        "owner": "System",
+        "listsortfield": "createdon",
+        "viewtype": null,
+        "celldataviewtype": null,
+        "listsortdir": "desc",
+        "isdefault": true,
+        "last_accessed_time": "2026-04-30T00:00:00",
+        "filters": [],
+        "groupby": [],
+        "columns": [
+          {
+            "id": "01",
+            "seqno": 1,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "numeric",
+            "api_name": "sno",
+            "columnwidth": 90
+          },
+          {
+            "id": "02",
+            "seqno": 2,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "name",
+            "columnwidth": 180
+          },
+          {
+            "id": "03",
+            "seqno": 3,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "description",
+            "columnwidth": 420
+          },
+          {
+            "id": "04",
+            "seqno": 4,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "nvarchar",
+            "api_name": "createdby",
+            "columnwidth": 160
+          },
+          {
+            "id": "05",
+            "seqno": 5,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "datetime",
+            "api_name": "createdon",
+            "columnwidth": 160
+          },
+          {
+            "id": "06",
+            "seqno": 6,
+            "masterid": "0",
+            "controltype": null,
+            "attrtype": "bit",
+            "api_name": "isactive",
+            "columnwidth": 120
+          }
+        ]
+      },
+      "correlationId": ""
+    }
+  },
+  "Priority_getbyid": {
+    "statusCode": 1000,
+    "message": "Fetched successfully",
+    "data": {
+      "id": 1,
+      "name": "Low",
+      "description": "Minimal impact, can be resolved as time permits",
+      "isactive": true
+    },
+    "correlationId": ""
+  }
 }
